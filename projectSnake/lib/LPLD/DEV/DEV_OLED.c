@@ -2,7 +2,7 @@
 #include "common.h"
 #include "Card_Config.h"
 
-uint8 displayGRAM[128][8];//显存
+uint8 displayGRAM[128][8] = {0};//显存
 /*****************************外部变量声明*************************************/
 //常用ASCII表
 //偏移量32
@@ -202,7 +202,7 @@ static void OLED_WrDat(uint8 dat)//写数据
         }
         else
         {
-          OLED_SdaSet(1);
+          OLED_SdaSet(0);
         }
         
         OLED_SclSet(1);
@@ -338,7 +338,7 @@ void OLED_Clear(void)
 {
       uint8 i,n;
       for(i=0;i<8;i++)
-              for(n=0;n<127;n++)
+              for(n=0;n<128;n++)
                       displayGRAM[n][i]=0x00;  
 }
 

@@ -14,6 +14,7 @@
   <configuration>
     <name>FLASH</name>
     <outputs>
+<<<<<<< Updated upstream
       <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_ADC.c</file>
       <file>$PROJ_DIR$\..\app\myK10Project.c</file>
       <file>$PROJ_DIR$\..\..\..\lib\common\uif.c</file>
@@ -69,17 +70,79 @@
       <file>$PROJ_DIR$\FLASH\Obj\system_MK60.pbi</file>
       <file>$PROJ_DIR$\FLASH\Obj\myK10Project.pbi</file>
       <file>$PROJ_DIR$\FLASH\Obj\HW_PIT.pbi</file>
+=======
+      <file>$PROJ_DIR$\..\app\myK10Project.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\printf.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\alloc.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\assert.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\io.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\queue.c</file>
+      <file>$PROJ_DIR$\FLASH\Obj\io.o</file>
+      <file>$PROJ_DIR$\FLASH\Obj\stdlib.o</file>
+      <file>$PROJ_DIR$\FLASH\Obj\relocate.o</file>
+      <file>$PROJ_DIR$\FLASH\Obj\HW_DMA.o</file>
+      <file>$PROJ_DIR$\FLASH\Obj\HW_DMA.pbi</file>
+      <file>$PROJ_DIR$\FLASH\Obj\HW_FTM.o</file>
+      <file>$PROJ_DIR$\FLASH\Obj\myK10Project.o</file>
+      <file>$PROJ_DIR$\FLASH\Exe\myK10Project_K60F12.bin</file>
+      <file>$PROJ_DIR$\FLASH\Obj\assert.o</file>
+      <file>$PROJ_DIR$\FLASH\Obj\system_MK60.o</file>
+      <file>$PROJ_DIR$\FLASH\Obj\system_MK60.pbi</file>
+      <file>$PROJ_DIR$\FLASH\Obj\alloc.o</file>
+      <file>$PROJ_DIR$\FLASH\Obj\HW_UART.o</file>
+      <file>$PROJ_DIR$\FLASH\Exe\myK10Project_K60F12.out</file>
+      <file>$PROJ_DIR$\FLASH\Obj\HW_FTM.pbi</file>
+      <file>$PROJ_DIR$\FLASH\Obj\queue.pbi</file>
+      <file>$PROJ_DIR$\FLASH\Obj\uif.pbi</file>
+      <file>$PROJ_DIR$\FLASH\Obj\HW_PIT.o</file>
+      <file>$PROJ_DIR$\FLASH\Obj\queue.o</file>
+      <file>$PROJ_DIR$\FLASH\Obj\io.pbi</file>
+      <file>$PROJ_DIR$\FLASH\Obj\HW_PIT.pbi</file>
+      <file>$PROJ_DIR$\FLASH\Obj\HW_ADC.o</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_DMA.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_FTM.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\CPU\startup_K60F12.s</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_MCG.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\stdlib.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\uif.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_ADC.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_GPIO.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\CPU\system_MK60.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\relocate.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_PIT.c</file>
+      <file>$PROJ_DIR$\FLASH\Obj\HW_ADC.pbi</file>
+      <file>$PROJ_DIR$\FLASH\Obj\myK10Project.pbi</file>
+      <file>$PROJ_DIR$\FLASH\Obj\HW_UART.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_UART.c</file>
+      <file>$PROJ_DIR$\FLASH\Obj\printf.o</file>
+      <file>$PROJ_DIR$\FLASH\Obj\HW_GPIO.o</file>
+      <file>$PROJ_DIR$\FLASH\Obj\startup_K60F12.o</file>
+      <file>$PROJ_DIR$\FLASH\Obj\printf.pbi</file>
+      <file>$PROJ_DIR$\FLASH\Obj\uif.o</file>
+      <file>$PROJ_DIR$\FLASH\Obj\stdlib.pbi</file>
+      <file>$PROJ_DIR$\FLASH\Obj\relocate.pbi</file>
+      <file>$PROJ_DIR$\FLASH\Obj\HW_GPIO.pbi</file>
+      <file>$PROJ_DIR$\FLASH\Obj\HW_MCG.o</file>
+      <file>$PROJ_DIR$\FLASH\Obj\assert.pbi</file>
+      <file>$PROJ_DIR$\FLASH\Obj\HW_MCG.pbi</file>
+      <file>$PROJ_DIR$\FLASH\Obj\alloc.pbi</file>
+>>>>>>> Stashed changes
     </outputs>
     <file>
       <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_ADC.c</name>
       <outputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 31</file>
         </tool>
         <tool>
           <name>BICOMP</name>
           <file> 30</file>
+=======
+          <name>ILINK</name>
+          <file> 19</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
     </file>
@@ -87,34 +150,81 @@
       <name>$PROJ_DIR$\..\app\myK10Project.c</name>
       <outputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 50</file>
         </tool>
         <tool>
           <name>BICOMP</name>
           <file> 53</file>
+=======
+          <name>BICOMP</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 12</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\common\uif.c</name>
       <outputs>
         <tool>
           <name>ICCARM</name>
           <file> 37</file>
-        </tool>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\common\printf.c</name>
+      <outputs>
         <tool>
           <name>BICOMP</name>
+          <file> 46</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
           <file> 43</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
     </file>
     <file>
+      <name>$PROJ_DIR$\..\..\..\lib\common\alloc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54</file>
+        </tool>
+        <tool>
+<<<<<<< Updated upstream
+          <name>BICOMP</name>
+          <file> 43</file>
+=======
+          <name>ICCARM</name>
+          <file> 17</file>
+>>>>>>> Stashed changes
+        </tool>
+      </outputs>
+    </file>
+    <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\CPU\startup_K60F12.s</name>
       <outputs>
         <tool>
           <name>AARM</name>
           <file> 32</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\common\assert.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 52</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 14</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
     </file>
@@ -122,16 +232,26 @@
       <name>$PROJ_DIR$\..\..\..\lib\common\io.c</name>
       <outputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 51</file>
         </tool>
         <tool>
           <name>BICOMP</name>
           <file> 17</file>
+=======
+          <name>BICOMP</name>
+          <file> 25</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\CPU\system_MK60.c</name>
       <outputs>
         <tool>
@@ -141,6 +261,17 @@
         <tool>
           <name>BICOMP</name>
           <file> 52</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\common\queue.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 24</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
     </file>
@@ -148,16 +279,22 @@
       <name>$PROJ_DIR$\..\..\..\lib\common\printf.c</name>
       <outputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 45</file>
         </tool>
         <tool>
           <name>BICOMP</name>
           <file> 25</file>
+=======
+          <name>OBJCOPY</name>
+          <file> 13</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\common\relocate.c</name>
       <outputs>
         <tool>
@@ -167,15 +304,36 @@
         <tool>
           <name>BICOMP</name>
           <file> 26</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_DMA.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 9</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\common\alloc.c</name>
       <outputs>
         <tool>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_FTM.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20</file>
+        </tool>
+        <tool>
+>>>>>>> Stashed changes
           <name>ICCARM</name>
-          <file> 39</file>
+          <file> 11</file>
         </tool>
         <tool>
           <name>BICOMP</name>
@@ -184,6 +342,7 @@
       </outputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\common\assert.c</name>
       <outputs>
         <tool>
@@ -193,19 +352,35 @@
         <tool>
           <name>BICOMP</name>
           <file> 36</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\CPU\startup_K60F12.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 45</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\lib\common\queue.c</name>
+      <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_MCG.c</name>
       <outputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 49</file>
         </tool>
         <tool>
           <name>BICOMP</name>
           <file> 33</file>
+=======
+          <name>BICOMP</name>
+          <file> 53</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 51</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
     </file>
@@ -213,16 +388,26 @@
       <name>$PROJ_DIR$\..\..\..\lib\common\stdlib.c</name>
       <outputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 40</file>
         </tool>
         <tool>
           <name>BICOMP</name>
           <file> 46</file>
+=======
+          <name>BICOMP</name>
+          <file> 48</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 7</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_DMA.c</name>
       <outputs>
         <tool>
@@ -232,19 +417,43 @@
         <tool>
           <name>BICOMP</name>
           <file> 16</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\common\uif.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 47</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>[ROOT_NODE]</name>
       <outputs>
         <tool>
           <name>ILINK</name>
           <file> 35</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_ADC.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 27</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_UART.c</name>
       <outputs>
         <tool>
@@ -254,10 +463,22 @@
         <tool>
           <name>BICOMP</name>
           <file> 21</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_GPIO.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 44</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_PIT.c</name>
       <outputs>
         <tool>
@@ -267,10 +488,22 @@
         <tool>
           <name>BICOMP</name>
           <file> 54</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\CPU\system_MK60.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 15</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_GPIO.c</name>
       <outputs>
         <tool>
@@ -293,10 +526,22 @@
         <tool>
           <name>BICOMP</name>
           <file> 15</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\common\relocate.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 49</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 8</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_FTM.c</name>
       <outputs>
         <tool>
@@ -306,15 +551,38 @@
         <tool>
           <name>BICOMP</name>
           <file> 20</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_PIT.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\FLASH\Exe\myK10Project_K60F12.out</name>
       <outputs>
         <tool>
           <name>OBJCOPY</name>
           <file> 24</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_UART.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 18</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
     </file>
@@ -326,6 +594,7 @@
   <configuration>
     <name>RAM</name>
     <outputs>
+<<<<<<< Updated upstream
       <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_ADC.c</file>
       <file>$PROJ_DIR$\..\app\myK10Project.c</file>
       <file>$PROJ_DIR$\..\..\..\lib\common\uif.c</file>
@@ -381,17 +650,79 @@
       <file>$PROJ_DIR$\RAM\Obj\relocate.pbi</file>
       <file>$PROJ_DIR$\RAM\Obj\alloc.o</file>
       <file>$PROJ_DIR$\RAM\Obj\assert.o</file>
+=======
+      <file>$PROJ_DIR$\..\app\myK10Project.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\printf.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\alloc.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\assert.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\io.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\queue.c</file>
+      <file>$PROJ_DIR$\RAM\Obj\printf.pbi</file>
+      <file>$PROJ_DIR$\RAM\Obj\HW_ADC.o</file>
+      <file>$PROJ_DIR$\RAM\Obj\HW_ADC.pbi</file>
+      <file>$PROJ_DIR$\RAM\Obj\alloc.o</file>
+      <file>$PROJ_DIR$\RAM\Obj\io.pbi</file>
+      <file>$PROJ_DIR$\RAM\Obj\stdlib.o</file>
+      <file>$PROJ_DIR$\RAM\Obj\HW_FTM.pbi</file>
+      <file>$PROJ_DIR$\RAM\Obj\assert.o</file>
+      <file>$PROJ_DIR$\RAM\Obj\HW_PIT.pbi</file>
+      <file>$PROJ_DIR$\RAM\Obj\io.o</file>
+      <file>$PROJ_DIR$\RAM\Obj\HW_MCG.o</file>
+      <file>$PROJ_DIR$\RAM\Obj\HW_UART.pbi</file>
+      <file>$PROJ_DIR$\RAM\Obj\alloc.pbi</file>
+      <file>$PROJ_DIR$\RAM\Obj\relocate.pbi</file>
+      <file>$PROJ_DIR$\RAM\Obj\system_MK60.o</file>
+      <file>$PROJ_DIR$\RAM\Obj\uif.pbi</file>
+      <file>$PROJ_DIR$\RAM\Exe\myK10Project_K60F12.bin</file>
+      <file>$PROJ_DIR$\RAM\Obj\relocate.o</file>
+      <file>$PROJ_DIR$\RAM\Obj\queue.pbi</file>
+      <file>$PROJ_DIR$\RAM\Obj\myK10Project.o</file>
+      <file>$PROJ_DIR$\RAM\Exe\myK10Project_K60F12.out</file>
+      <file>$PROJ_DIR$\RAM\Obj\uif.o</file>
+      <file>$PROJ_DIR$\RAM\Obj\HW_GPIO.pbi</file>
+      <file>$PROJ_DIR$\RAM\Obj\HW_FTM.o</file>
+      <file>$PROJ_DIR$\RAM\Obj\HW_GPIO.o</file>
+      <file>$PROJ_DIR$\RAM\Obj\assert.pbi</file>
+      <file>$PROJ_DIR$\RAM\Obj\queue.o</file>
+      <file>$PROJ_DIR$\RAM\Obj\myK10Project.pbi</file>
+      <file>$PROJ_DIR$\RAM\Obj\startup_K60F12.o</file>
+      <file>$PROJ_DIR$\RAM\Obj\HW_UART.o</file>
+      <file>$PROJ_DIR$\RAM\Obj\HW_PIT.o</file>
+      <file>$PROJ_DIR$\RAM\Obj\HW_DMA.pbi</file>
+      <file>$PROJ_DIR$\RAM\Obj\system_MK60.pbi</file>
+      <file>$PROJ_DIR$\RAM\Obj\stdlib.pbi</file>
+      <file>$PROJ_DIR$\RAM\Obj\printf.o</file>
+      <file>$PROJ_DIR$\RAM\Obj\HW_DMA.o</file>
+      <file>$PROJ_DIR$\RAM\Obj\HW_MCG.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_DMA.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_FTM.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\CPU\startup_K60F12.s</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_MCG.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\stdlib.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\uif.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_ADC.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_GPIO.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\CPU\system_MK60.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\relocate.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_PIT.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_UART.c</file>
+>>>>>>> Stashed changes
     </outputs>
     <file>
       <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_ADC.c</name>
       <outputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 23</file>
         </tool>
         <tool>
           <name>BICOMP</name>
           <file> 24</file>
+=======
+          <name>ILINK</name>
+          <file> 26</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
     </file>
@@ -399,8 +730,13 @@
       <name>$PROJ_DIR$\..\app\myK10Project.c</name>
       <outputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 19</file>
+=======
+          <name>BICOMP</name>
+          <file> 33</file>
+>>>>>>> Stashed changes
         </tool>
         <tool>
           <name>BICOMP</name>
@@ -409,6 +745,7 @@
       </outputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\common\uif.c</name>
       <outputs>
         <tool>
@@ -418,19 +755,43 @@
         <tool>
           <name>BICOMP</name>
           <file> 28</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\common\printf.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 40</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\CPU\startup_K60F12.s</name>
       <outputs>
         <tool>
           <name>AARM</name>
           <file> 32</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\common\alloc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 9</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\common\io.c</name>
       <outputs>
         <tool>
@@ -440,10 +801,22 @@
         <tool>
           <name>BICOMP</name>
           <file> 51</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\common\assert.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 13</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\CPU\system_MK60.c</name>
       <outputs>
         <tool>
@@ -453,10 +826,22 @@
         <tool>
           <name>BICOMP</name>
           <file> 47</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\common\io.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 15</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\common\printf.c</name>
       <outputs>
         <tool>
@@ -466,10 +851,22 @@
         <tool>
           <name>BICOMP</name>
           <file> 30</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\common\queue.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 32</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\common\relocate.c</name>
       <outputs>
         <tool>
@@ -479,10 +876,18 @@
         <tool>
           <name>BICOMP</name>
           <file> 52</file>
+=======
+      <name>$PROJ_DIR$\RAM\Exe\myK10Project_K60F12.out</name>
+      <outputs>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 22</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\common\alloc.c</name>
       <outputs>
         <tool>
@@ -492,10 +897,22 @@
         <tool>
           <name>BICOMP</name>
           <file> 27</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_DMA.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\common\assert.c</name>
       <outputs>
         <tool>
@@ -505,23 +922,40 @@
         <tool>
           <name>BICOMP</name>
           <file> 37</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_FTM.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 29</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\lib\common\queue.c</name>
+      <name>$PROJ_DIR$\..\..\..\lib\CPU\startup_K60F12.s</name>
       <outputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 49</file>
         </tool>
         <tool>
           <name>BICOMP</name>
           <file> 36</file>
+=======
+          <name>AARM</name>
+          <file> 34</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\common\stdlib.c</name>
       <outputs>
         <tool>
@@ -531,10 +965,22 @@
         <tool>
           <name>BICOMP</name>
           <file> 20</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_MCG.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 16</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_DMA.c</name>
       <outputs>
         <tool>
@@ -544,19 +990,43 @@
         <tool>
           <name>BICOMP</name>
           <file> 40</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\common\stdlib.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 11</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>[ROOT_NODE]</name>
       <outputs>
         <tool>
           <name>ILINK</name>
           <file> 46</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\common\uif.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 27</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_UART.c</name>
       <outputs>
         <tool>
@@ -566,10 +1036,22 @@
         <tool>
           <name>BICOMP</name>
           <file> 34</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_ADC.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 7</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_PIT.c</name>
       <outputs>
         <tool>
@@ -579,10 +1061,22 @@
         <tool>
           <name>BICOMP</name>
           <file> 31</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_GPIO.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 30</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_GPIO.c</name>
       <outputs>
         <tool>
@@ -592,10 +1086,22 @@
         <tool>
           <name>BICOMP</name>
           <file> 22</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\CPU\system_MK60.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 20</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_MCG.c</name>
       <outputs>
         <tool>
@@ -605,10 +1111,22 @@
         <tool>
           <name>BICOMP</name>
           <file> 42</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\common\relocate.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_FTM.c</name>
       <outputs>
         <tool>
@@ -618,15 +1136,38 @@
         <tool>
           <name>BICOMP</name>
           <file> 48</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_PIT.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 36</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\RAM\Exe\myK10Project_K60F12.out</name>
       <outputs>
         <tool>
           <name>OBJCOPY</name>
           <file> 44</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_UART.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 35</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
     </file>

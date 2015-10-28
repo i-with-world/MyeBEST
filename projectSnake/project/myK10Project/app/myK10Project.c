@@ -22,12 +22,17 @@
 void main (void)
 {
   OLED_Init();
-  //OLED_Clear();
+  OLED_Clear();
   
   while(1)
   {
+<<<<<<< Updated upstream
 //    OLED_WriteChar(0, 0, 'a', 0);
 //    OLED_Refresh_Gram();
+=======
+    OLED_WriteChar(0, 0, 'a', 1);
+    OLED_Refresh_Gram();
+>>>>>>> Stashed changes
   }
 }
 

@@ -5,7 +5,616 @@
   <fileChecksum>2317031424</fileChecksum>
   <configuration>
     <name>BOOT</name>
-    <outputs/>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_ADC.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\DEV\DEV_OLED.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_ADC.h</file>
+      <file>$PROJ_DIR$\BOOT\List\system_MK60.lst</file>
+      <file>$PROJ_DIR$\..\..\..\lib\CPU\system_MK60DZ10.h</file>
+      <file>$PROJ_DIR$\BOOT\List\stdlib.s</file>
+      <file>$PROJ_DIR$\BOOT\List\myK10Project.s</file>
+      <file>$PROJ_DIR$\BOOT\List\HW_ADC.s</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\BOOT\List\assert.lst</file>
+      <file>$PROJ_DIR$\BOOT\List\printf.s</file>
+      <file>$PROJ_DIR$\BOOT\List\stdlib.lst</file>
+      <file>$PROJ_DIR$\BOOT\List\printf.lst</file>
+      <file>$PROJ_DIR$\BOOT\List\HW_GPIO.lst</file>
+      <file>$PROJ_DIR$\BOOT\List\Card_Config.s</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_I2C.h</file>
+      <file>$PROJ_DIR$\BOOT\List\HW_DMA.s</file>
+      <file>$PROJ_DIR$\BOOT\List\relocate.lst</file>
+      <file>$PROJ_DIR$\BOOT\List\HW_FTM.lst</file>
+      <file>$PROJ_DIR$\BOOT\List\assert.s</file>
+      <file>$PROJ_DIR$\BOOT\List\HW_FTM.s</file>
+      <file>$PROJ_DIR$\BOOT\List\HW_DMA.lst</file>
+      <file>$PROJ_DIR$\BOOT\List\HW_ADC.lst</file>
+      <file>$PROJ_DIR$\BOOT\List\uif.lst</file>
+      <file>$PROJ_DIR$\BOOT\List\uif.s</file>
+      <file>$PROJ_DIR$\BOOT\Obj\HW_UART.pbi</file>
+      <file>$PROJ_DIR$\BOOT\List\startup_K60DZ10.lst</file>
+      <file>$PROJ_DIR$\BOOT\Obj\queue.pbi</file>
+      <file>$PROJ_DIR$\BOOT\List\HW_GPIO.s</file>
+      <file>$PROJ_DIR$\BOOT\Obj\HW_ADC.pbi</file>
+      <file>$PROJ_DIR$\BOOT\List\HW_MCG.lst</file>
+      <file>$PROJ_DIR$\BOOT\List\alloc.lst</file>
+      <file>$PROJ_DIR$\BOOT\List\relocate.s</file>
+      <file>$PROJ_DIR$\BOOT\List\myK10Project.lst</file>
+      <file>$PROJ_DIR$\BOOT\List\HW_MCG.s</file>
+      <file>$PROJ_DIR$\BOOT\List\system_MK60.s</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_TSI.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_ENET.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_RTC.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_USB.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cm4.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_LPTMR.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_PDB.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\CPU\MK60DZ10.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_FLASH.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_CAN.h</file>
+      <file>$PROJ_DIR$\BOOT\List\alloc.s</file>
+      <file>$PROJ_DIR$\BOOT\List\Card_Config.lst</file>
+      <file>$PROJ_DIR$\BOOT\Obj\stdlib.pbi</file>
+      <file>$PROJ_DIR$\BOOT\Obj\relocate.pbi</file>
+      <file>$PROJ_DIR$\BOOT\Obj\system_MK60.pbi</file>
+      <file>$PROJ_DIR$\BOOT\Exe\myK10Project_K60DZ10.out</file>
+      <file>$PROJ_DIR$\BOOT\Obj\startup_K60DZ10.o</file>
+      <file>$PROJ_DIR$\BOOT\Obj\HW_PIT.o</file>
+      <file>$PROJ_DIR$\BOOT\Exe\myK10Project_K60DZ10.bin</file>
+      <file>$PROJ_DIR$\BOOT\Obj\HW_MCG.pbi</file>
+      <file>$PROJ_DIR$\BOOT\Obj\system_MK60.o</file>
+      <file>$PROJ_DIR$\BOOT\Obj\alloc.pbi</file>
+      <file>$PROJ_DIR$\BOOT\Obj\io.pbi</file>
+      <file>$PROJ_DIR$\BOOT\Obj\uif.o</file>
+      <file>$PROJ_DIR$\BOOT\Obj\Card_Config.pbi</file>
+      <file>$PROJ_DIR$\BOOT\Obj\HW_GPIO.o</file>
+      <file>$PROJ_DIR$\BOOT\Obj\HW_FTM.pbi</file>
+      <file>$PROJ_DIR$\BOOT\Obj\stdlib.o</file>
+      <file>$PROJ_DIR$\BOOT\Obj\myK10Project.pbi</file>
+      <file>$PROJ_DIR$\BOOT\Obj\alloc.o</file>
+      <file>$PROJ_DIR$\BOOT\Obj\assert.o</file>
+      <file>$PROJ_DIR$\BOOT\Obj\printf.o</file>
+      <file>$PROJ_DIR$\BOOT\Obj\relocate.o</file>
+      <file>$PROJ_DIR$\BOOT\Obj\HW_PIT.pbi</file>
+      <file>$PROJ_DIR$\BOOT\Obj\HW_FTM.o</file>
+      <file>$PROJ_DIR$\BOOT\Obj\uif.pbi</file>
+      <file>$PROJ_DIR$\BOOT\Obj\DEV_OLED.pbi</file>
+      <file>$PROJ_DIR$\BOOT\Obj\HW_DMA.pbi</file>
+      <file>$PROJ_DIR$\BOOT\Obj\printf.pbi</file>
+      <file>$PROJ_DIR$\BOOT\Obj\assert.pbi</file>
+      <file>$PROJ_DIR$\BOOT\Obj\HW_UART.o</file>
+      <file>$PROJ_DIR$\BOOT\Obj\myK10Project.o</file>
+      <file>$PROJ_DIR$\BOOT\Obj\HW_GPIO.pbi</file>
+      <file>$PROJ_DIR$\BOOT\Obj\HW_DMA.o</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_DMA.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\printf.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\stdlib.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\config\Card_Config.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\queue.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\uif.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\config\Card_Config.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\io.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\io.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\stdlib.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\CPU\startup_K60DZ10.s</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\DEV\DEV_OLED.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\CPU\system_MK60.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\queue.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\relocate.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\uif.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\relocate.h</file>
+      <file>$PROJ_DIR$\..\app\myK10Project.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\common.h</file>
+      <file>$PROJ_DIR$\..\app\k60_card.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\assert.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\assert.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\alloc.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_NVIC.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_WDOG.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_SDHC.h</file>
+      <file>$PROJ_DIR$\BOOT\Obj\HW_MCG.o</file>
+      <file>$PROJ_DIR$\BOOT\List\queue.s</file>
+      <file>$PROJ_DIR$\BOOT\Obj\HW_ADC.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\BOOT\List\io.lst</file>
+      <file>$PROJ_DIR$\BOOT\Obj\io.o</file>
+      <file>$PROJ_DIR$\BOOT\List\io.s</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\BOOT\List\HW_PIT.lst</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_DAC.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_SPI.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\BOOT\List\HW_PIT.s</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_SYSTICK.h</file>
+      <file>$PROJ_DIR$\BOOT\Obj\queue.o</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\BOOT\List\queue.lst</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\BOOT\List\HW_UART.lst</file>
+      <file>$PROJ_DIR$\BOOT\Obj\Card_Config.o</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_UART.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cm4_simd.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_FTM.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_FTM.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_UART.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_PIT.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_PIT.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_MCG.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_DMA.h</file>
+      <file>$PROJ_DIR$\BOOT\List\HW_UART.s</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\LPLD_Drivers.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_MCG.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_FLEXBUS.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_GPIO.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_GPIO.c</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_ADC.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 7 22 114</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104 105 48 43 49 119 123 46 115 37 8 129 40 45 145 127 133 4 107 94 101 95 102 142 139 110 132 146 137 135 2 121 47 44 50 15 51 111 140 41 144 36 38 122 42 125 109</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 104 105 48 43 49 119 123 46 115 37 8 129 40 45 145 127 133 4 107 94 101 95 102 142 139 110 132 146 137 135 2 121 47 44 50 15 51 111 140 41 144 36 38 122 42 125 109</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 57</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\BOOT\Exe\myK10Project_K60DZ10.out</name>
+      <outputs>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 60</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_DMA.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 79</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 16 21 85</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104 105 48 43 49 119 123 46 115 37 8 129 40 45 145 127 133 4 107 94 101 95 102 142 139 110 132 146 137 135 2 121 47 44 50 15 51 111 140 41 144 36 38 122 42 125 109</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 104 105 48 43 49 119 123 46 115 37 8 129 40 45 145 127 133 4 107 94 101 95 102 142 139 110 132 146 137 135 2 121 47 44 50 15 51 111 140 41 144 36 38 122 42 125 109</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\lib\common\printf.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 80</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 10 12 73</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104 105 48 43 49 119 123 46 115 37 8 129 40 45 145 127 133 4 107 94 101 95 102 142 139 110 132 146 137 135 2 121 47 44 50 15 51 111 140 41 144 36 38 122 42 125 109 39</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 104 105 48 43 49 119 123 46 115 37 8 129 40 45 145 127 133 4 107 94 101 95 102 142 139 110 132 146 137 135 2 121 47 44 50 15 51 111 140 41 144 36 38 122 42 125 109</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\lib\common\stdlib.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 5 11 69</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 95 104 105 48 43 49 119 123 46 115 37 8 129 40 45 145 127 133 4 107 94 101 102 142 139 110 132 146 137 135 2 121 47 44 50 15 51 111 140 41 144 36 38 122 42 125 109</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 95 104 105 48 43 49 119 123 46 115 37 8 129 40 45 145 127 133 4 107 94 101 102 142 139 110 132 146 137 135 2 121 47 44 50 15 51 111 140 41 144 36 38 122 42 125 109</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\lib\common\queue.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 113 128 126</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104 105 48 43 49 119 123 46 115 37 8 129 40 45 145 127 133 4 107 94 101 95 102 142 139 110 132 146 137 135 2 121 47 44 50 15 51 111 140 41 144 36 38 122 42 125 109 99</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 104 105 48 43 49 119 123 46 115 37 8 129 40 45 145 127 133 4 107 94 101 95 102 142 139 110 132 146 137 135 2 121 47 44 50 15 51 111 140 41 144 36 38 122 42 125 109 99</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\lib\common\uif.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 77</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 24 23 65</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104 105 48 43 49 119 123 46 115 37 8 129 40 45 145 127 133 4 107 94 101 95 102 142 139 110 132 146 137 135 2 121 47 44 50 15 51 111 140 41 144 36 38 122 42 125 109</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 104 105 48 43 49 119 123 46 115 37 8 129 40 45 145 127 133 4 107 94 101 95 102 142 139 110 132 146 137 135 2 121 47 44 50 15 51 111 140 41 144 36 38 122 42 125 109</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\lib\config\Card_Config.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 14 53 131</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 89 104 105 48 43 49 119 123 46 115 37 8 129 40 45 145 127 133 4 107 94 101 95 102 142 139 110 132 146 137 135 2 121 47 44 50 15 51 111 140 41 144 36 38 122 42 125 109</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 89 104 105 48 43 49 119 123 46 115 37 8 129 40 45 145 127 133 4 107 94 101 95 102 142 139 110 132 146 137 135 2 121 47 44 50 15 51 111 140 41 144 36 38 122 42 125 109</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\lib\common\io.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 64</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 118 116 117</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104 105 48 43 49 119 123 46 115 37 8 129 40 45 145 127 133 4 107 94 101 95 102 142 139 110 132 146 137 135 2 121 47 44 50 15 51 111 140 41 144 36 38 122 42 125 109</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 104 105 48 43 49 119 123 46 115 37 8 129 40 45 145 127 133 4 107 94 101 95 102 142 139 110 132 146 137 135 2 121 47 44 50 15 51 111 140 41 144 36 38 122 42 125 109</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\lib\CPU\startup_K60DZ10.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 58 26</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\lib\LPLD\DEV\DEV_OLED.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 78</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1 104 105 48 43 49 119 123 46 115 37 8 129 40 45 145 127 133 4 107 94 101 95 102 142 139 110 132 146 137 135 2 121 47 44 50 15 51 111 140 41 144 36 38 122 42 125 109</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 1 104 105 48 43 49 119 123 46 115 37 8 129 40 45 145 127 133 4 107 94 101 95 102 142 139 110 132 146 137 135 2 121 47 44 50 15 51 111 140 41 144 36 38 122 42 125 109</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\lib\CPU\system_MK60.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 35 3 62</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 49 119 123 46 115 37 8 129 104 105 48 43 40 45 145 127 133 4 107 94 101 95 102 142 139 110 132 146 137 135 2 121 47 44 50 15 51 111 140 41 144 36 38 122 42 125 109</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 49 119 123 46 115 37 8 129 104 105 48 43 40 45 145 127 133 4 107 94 101 95 102 142 139 110 132 146 137 135 2 121 47 44 50 15 51 111 140 41 144 36 38 122 42 125 109</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\lib\common\relocate.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 55</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 32 17 74</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104 105 48 43 49 119 123 46 115 37 8 129 40 45 145 127 133 4 107 94 101 95 102 142 139 110 132 146 137 135 2 121 47 44 50 15 51 111 140 41 144 36 38 122 42 125 109</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 104 105 48 43 49 119 123 46 115 37 8 129 40 45 145 127 133 4 107 94 101 95 102 142 139 110 132 146 137 135 2 121 47 44 50 15 51 111 140 41 144 36 38 122 42 125 109</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\app\myK10Project.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6 33 83</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104 105 48 43 49 119 123 46 115 37 8 129 40 45 145 127 133 4 107 94 101 95 102 142 139 110 132 146 137 135 2 121 47 44 50 15 51 111 140 41 144 36 38 122 42 125 109 1</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 104 105 48 43 49 119 123 46 115 37 8 129 40 45 145 127 133 4 107 94 101 95 102 142 139 110 132 146 137 135 2 121 47 44 50 15 51 111 140 41 144 36 38 122 42 125 109 1</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\lib\common\assert.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 19 9 72</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104 105 48 43 49 119 123 46 115 37 8 129 40 45 145 127 133 4 107 94 101 95 102 142 139 110 132 146 137 135 2 121 47 44 50 15 51 111 140 41 144 36 38 122 42 125 109</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 104 105 48 43 49 119 123 46 115 37 8 129 40 45 145 127 133 4 107 94 101 95 102 142 139 110 132 146 137 135 2 121 47 44 50 15 51 111 140 41 144 36 38 122 42 125 109</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\lib\common\alloc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 63</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 52 31 71</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104 105 48 43 49 119 123 46 115 37 8 129 40 45 145 127 133 4 107 94 101 95 102 142 139 110 132 146 137 135 2 121 47 44 50 15 51 111 140 41 144 36 38 122 42 125 109</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 104 105 48 43 49 119 123 46 115 37 8 129 40 45 145 127 133 4 107 94 101 95 102 142 139 110 132 146 137 135 2 121 47 44 50 15 51 111 140 41 144 36 38 122 42 125 109</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_FTM.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 68</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 20 18 76</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104 105 48 43 49 119 123 46 115 37 8 129 40 45 145 127 133 4 107 94 101 95 102 142 139 110 132 146 137 135 2 121 47 44 50 15 51 111 140 41 144 36 38 122 42 125 109</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 104 105 48 43 49 119 123 46 115 37 8 129 40 45 145 127 133 4 107 94 101 95 102 142 139 110 132 146 137 135 2 121 47 44 50 15 51 111 140 41 144 36 38 122 42 125 109</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_UART.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 141 130 82</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104 105 48 43 49 119 123 46 115 37 8 129 40 45 145 127 133 4 107 94 101 95 102 142 139 110 132 146 137 135 2 121 47 44 50 15 51 111 140 41 144 36 38 122 42 125 109</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 104 105 48 43 49 119 123 46 115 37 8 129 40 45 145 127 133 4 107 94 101 95 102 142 139 110 132 146 137 135 2 121 47 44 50 15 51 111 140 41 144 36 38 122 42 125 109</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_PIT.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 75</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 124 120 59</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104 105 48 43 49 119 123 46 115 37 8 129 40 45 145 127 133 4 107 94 101 95 102 142 139 110 132 146 137 135 2 121 47 44 50 15 51 111 140 41 144 36 38 122 42 125 109</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 104 105 48 43 49 119 123 46 115 37 8 129 40 45 145 127 133 4 107 94 101 95 102 142 139 110 132 146 137 135 2 121 47 44 50 15 51 111 140 41 144 36 38 122 42 125 109</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_MCG.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34 30 112</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104 105 48 43 49 119 123 46 115 37 8 129 40 45 145 127 133 4 107 94 101 95 102 142 139 110 132 146 137 135 2 121 47 44 50 15 51 111 140 41 144 36 38 122 42 125 109</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 104 105 48 43 49 119 123 46 115 37 8 129 40 45 145 127 133 4 107 94 101 95 102 142 139 110 132 146 137 135 2 121 47 44 50 15 51 111 140 41 144 36 38 122 42 125 109</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_GPIO.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 84</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 28 13 67</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104 105 48 43 49 119 123 46 115 37 8 129 40 45 145 127 133 4 107 94 101 95 102 142 139 110 132 146 137 135 2 121 47 44 50 15 51 111 140 41 144 36 38 122 42 125 109</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 104 105 48 43 49 119 123 46 115 37 8 129 40 45 145 127 133 4 107 94 101 95 102 142 139 110 132 146 137 135 2 121 47 44 50 15 51 111 140 41 144 36 38 122 42 125 109</file>
+        </tool>
+      </inputs>
+    </file>
     <forcedrebuild>
       <name>[MULTI_TOOL]</name>
       <tool>ILINK</tool>
@@ -14,6 +623,7 @@
   <configuration>
     <name>FLASH</name>
     <outputs>
+<<<<<<< Updated upstream
       <file>$PROJ_DIR$\..\..\..\lib\CPU\startup_K60DZ10.s</file>
       <file>$PROJ_DIR$\..\..\..\lib\LPLD\DEV\DEV_OLED.h</file>
       <file>$PROJ_DIR$\..\..\..\lib\CPU\system_MK60.c</file>
@@ -116,9 +726,78 @@
       <file>$PROJ_DIR$\..\..\..\lib\common\io.c</file>
       <file>$PROJ_DIR$\..\..\..\lib\common\printf.c</file>
       <file>$PROJ_DIR$\..\..\..\lib\config\Card_Config.h</file>
+=======
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_ADC.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\DEV\DEV_OLED.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_ADC.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_I2C.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_TSI.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_ENET.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_RTC.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_USB.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cm4.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_LPTMR.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_PDB.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_FLASH.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_CAN.h</file>
+      <file>$PROJ_DIR$\FLASH\Obj\HW_DMA.o</file>
+      <file>$PROJ_DIR$\FLASH\List\HW_ADC.s</file>
+      <file>$PROJ_DIR$\FLASH\Obj\printf.o</file>
+      <file>$PROJ_DIR$\FLASH\Obj\printf.pbi</file>
+      <file>$PROJ_DIR$\FLASH\List\io.lst</file>
+      <file>$PROJ_DIR$\FLASH\Obj\HW_UART.pbi</file>
+      <file>$PROJ_DIR$\FLASH\Obj\uif.pbi</file>
+      <file>$PROJ_DIR$\FLASH\List\HW_MCG.lst</file>
+      <file>$PROJ_DIR$\FLASH\Obj\uif.o</file>
+      <file>$PROJ_DIR$\FLASH\Obj\alloc.o</file>
+      <file>$PROJ_DIR$\FLASH\Obj\HW_PIT.pbi</file>
+      <file>$PROJ_DIR$\FLASH\List\io.s</file>
+      <file>$PROJ_DIR$\FLASH\List\HW_PIT.s</file>
+      <file>$PROJ_DIR$\FLASH\List\uif.s</file>
+      <file>$PROJ_DIR$\FLASH\Obj\io.pbi</file>
+      <file>$PROJ_DIR$\FLASH\Obj\stdlib.o</file>
+      <file>$PROJ_DIR$\FLASH\Obj\io.o</file>
+      <file>$PROJ_DIR$\FLASH\List\myK10Project.s</file>
+      <file>$PROJ_DIR$\FLASH\Obj\Card_Config.pbi</file>
+      <file>$PROJ_DIR$\FLASH\Obj\HW_FTM.o</file>
+      <file>$PROJ_DIR$\FLASH\List\HW_UART.s</file>
+      <file>$PROJ_DIR$\FLASH\List\alloc.s</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$PROJ_DIR$\FLASH\List\DEV_OLED.lst</file>
+      <file>$PROJ_DIR$\FLASH\Obj\HW_MCG.pbi</file>
+      <file>$PROJ_DIR$\FLASH\Obj\HW_PIT.o</file>
+      <file>$PROJ_DIR$\FLASH\Obj\system_MK60.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_DMA.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\printf.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\stdlib.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\config\Card_Config.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\queue.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\uif.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\config\Card_Config.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\io.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\io.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\stdlib.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\CPU\startup_K60DZ10.s</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\DEV\DEV_OLED.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\CPU\system_MK60.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\queue.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\relocate.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\uif.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\relocate.h</file>
+      <file>$PROJ_DIR$\..\app\myK10Project.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\common.h</file>
+>>>>>>> Stashed changes
       <file>$PROJ_DIR$\..\app\k60_card.h</file>
       <file>$PROJ_DIR$\..\..\..\lib\common\alloc.c</file>
       <file>$PROJ_DIR$\..\..\..\lib\common\assert.c</file>
+<<<<<<< Updated upstream
       <file>$PROJ_DIR$\..\..\..\lib\common\common.h</file>
       <file>$PROJ_DIR$\..\..\..\lib\common\queue.c</file>
       <file>$PROJ_DIR$\..\..\..\lib\common\queue.h</file>
@@ -173,26 +852,146 @@
       <file>$PROJ_DIR$\FLASH\List\myK10Project_K60DZ10.map</file>
       <file>$PROJ_DIR$\FLASH\Obj\DEV_OLED.o</file>
       <file>$PROJ_DIR$\FLASH\List\printf.s</file>
+=======
+      <file>$PROJ_DIR$\..\..\..\lib\common\assert.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\alloc.c</file>
+      <file>$PROJ_DIR$\FLASH\Obj\relocate.o</file>
+      <file>$PROJ_DIR$\FLASH\Obj\HW_GPIO.pbi</file>
+      <file>$PROJ_DIR$\FLASH\List\DEV_OLED.s</file>
+      <file>$PROJ_DIR$\..\..\..\lib\iar_config_files\LPLD_K60DN512_FLASH.icf</file>
+      <file>$PROJ_DIR$\FLASH\List\HW_DMA.lst</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+      <file>$PROJ_DIR$\FLASH\List\assert.lst</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$PROJ_DIR$\FLASH\List\uif.lst</file>
+      <file>$PROJ_DIR$\FLASH\Obj\alloc.pbi</file>
+      <file>$PROJ_DIR$\FLASH\List\assert.s</file>
+      <file>$PROJ_DIR$\FLASH\Obj\queue.o</file>
+      <file>$PROJ_DIR$\FLASH\List\HW_FTM.lst</file>
+      <file>$PROJ_DIR$\FLASH\List\relocate.s</file>
+      <file>$PROJ_DIR$\FLASH\List\relocate.lst</file>
+      <file>$PROJ_DIR$\FLASH\List\queue.s</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$PROJ_DIR$\FLASH\Obj\HW_GPIO.o</file>
+      <file>$PROJ_DIR$\FLASH\List\HW_MCG.s</file>
+      <file>$PROJ_DIR$\FLASH\Exe\myK10Project_K60DZ10.out</file>
+      <file>$PROJ_DIR$\FLASH\List\printf.s</file>
+      <file>$PROJ_DIR$\FLASH\Obj\myK10Project.o</file>
+      <file>$PROJ_DIR$\FLASH\Obj\relocate.pbi</file>
+      <file>$PROJ_DIR$\FLASH\Obj\stdlib.pbi</file>
+      <file>$PROJ_DIR$\FLASH\List\HW_ADC.lst</file>
+      <file>$PROJ_DIR$\FLASH\List\printf.lst</file>
+      <file>$PROJ_DIR$\FLASH\List\Card_Config.lst</file>
+      <file>$PROJ_DIR$\FLASH\List\startup_K60DZ10.lst</file>
+      <file>$PROJ_DIR$\FLASH\List\stdlib.lst</file>
+      <file>$PROJ_DIR$\FLASH\Obj\HW_ADC.o</file>
+      <file>$PROJ_DIR$\FLASH\Obj\DEV_OLED.pbi</file>
+      <file>$PROJ_DIR$\FLASH\Obj\HW_MCG.o</file>
+      <file>$PROJ_DIR$\FLASH\List\HW_GPIO.s</file>
+      <file>$PROJ_DIR$\FLASH\Obj\startup_K60DZ10.o</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Lib\IAR\iar_cortexM4l_math.a</file>
+      <file>$PROJ_DIR$\FLASH\Obj\assert.o</file>
+      <file>$PROJ_DIR$\FLASH\List\stdlib.s</file>
+      <file>$PROJ_DIR$\FLASH\Obj\HW_FTM.pbi</file>
+      <file>$PROJ_DIR$\FLASH\List\system_MK60.lst</file>
+      <file>$PROJ_DIR$\FLASH\Obj\queue.pbi</file>
+      <file>$PROJ_DIR$\FLASH\List\HW_DMA.s</file>
+      <file>$PROJ_DIR$\FLASH\Obj\myK10Project_K60DZ10.pbd</file>
+      <file>$PROJ_DIR$\FLASH\Obj\HW_UART.o</file>
+      <file>$PROJ_DIR$\FLASH\List\HW_GPIO.lst</file>
+      <file>$PROJ_DIR$\FLASH\List\Card_Config.s</file>
+      <file>$PROJ_DIR$\FLASH\Obj\system_MK60.o</file>
+      <file>$PROJ_DIR$\FLASH\List\system_MK60.s</file>
+      <file>$PROJ_DIR$\FLASH\Obj\HW_DMA.pbi</file>
+      <file>$PROJ_DIR$\FLASH\Obj\assert.pbi</file>
+      <file>$PROJ_DIR$\FLASH\List\HW_UART.lst</file>
+      <file>$PROJ_DIR$\FLASH\Obj\HW_ADC.pbi</file>
+      <file>$PROJ_DIR$\FLASH\List\HW_PIT.lst</file>
+      <file>$PROJ_DIR$\FLASH\Exe\myK10Project_K60DZ10.bin</file>
+      <file>$PROJ_DIR$\FLASH\Obj\Card_Config.o</file>
+      <file>$PROJ_DIR$\FLASH\List\HW_FTM.s</file>
+      <file>$PROJ_DIR$\FLASH\List\myK10Project_K60DZ10.map</file>
+      <file>$PROJ_DIR$\FLASH\Obj\DEV_OLED.o</file>
+      <file>$PROJ_DIR$\FLASH\List\queue.lst</file>
+      <file>$PROJ_DIR$\..\..\..\lib\CPU\system_MK60D10.h</file>
+      <file>$PROJ_DIR$\FLASH\List\myK10Project.lst</file>
+      <file>$PROJ_DIR$\..\..\..\lib\CPU\MK60D10.h</file>
+      <file>$PROJ_DIR$\FLASH\List\alloc.lst</file>
+      <file>$PROJ_DIR$\FLASH\Obj\myK10Project.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_NVIC.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_WDOG.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_SDHC.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_DAC.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_SPI.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_SYSTICK.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmFunc.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_UART.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cm4_simd.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_FTM.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_FTM.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_UART.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_PIT.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_PIT.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_MCG.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_DMA.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\LPLD_Drivers.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_MCG.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_FLEXBUS.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_GPIO.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_GPIO.c</file>
+>>>>>>> Stashed changes
     </outputs>
     <file>
       <name>[ROOT_NODE]</name>
       <outputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ILINK</name>
           <file> 44 156</file>
         </tool>
       </outputs>
+=======
+          <name>BICOMP</name>
+          <file> 120</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 21 94 99</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 65 66 130 12 17 137 140 15 136 6 3 143 9 14 156 142 145 128 68 55 62 56 63 153 151 134 144 157 149 147 2 138 16 13 18 4 19 135 152 10 155 5 7 139 11 141 133</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65 66 130 12 17 137 140 15 136 6 3 143 9 14 156 142 145 128 68 55 62 56 63 153 151 134 144 157 149 147 2 138 16 13 18 4 19 135 152 10 155 5 7 139 11 141 133</file>
+        </tool>
+      </inputs>
+>>>>>>> Stashed changes
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\..\lib\CPU\startup_K60DZ10.s</name>
       <outputs>
         <tool>
+<<<<<<< Updated upstream
           <name>AARM</name>
           <file> 4 87</file>
+=======
+          <name>ILINK</name>
+          <file> 89 125</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\CPU\system_MK60.c</name>
       <outputs>
         <tool>
@@ -202,20 +1001,41 @@
         <tool>
           <name>BICOMP</name>
           <file> 109</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_DMA.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 117</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 110 74 20</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
       <inputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 13 155 54 67 133 47 53 128 105 102 51 41 61 19 14 140 79 56 93 94 96 91 95 124 125 11 120 116 119 131 121 73 8 69 147 37 77 29 113 134 15 70 28 80 81 84 142</file>
         </tool>
         <tool>
           <name>BICOMP</name>
           <file> 56 113 91 72 13 121 142 155 133 51 124 19 120 147 28 105 54 47 102 94 61 125 119 8 77 15 81 67 53 128 93 96 95 14 41 140 11 116 131 73 69 37 29 134 70 80 84</file>
+=======
+          <name>BICOMP</name>
+          <file> 65 66 130 12 17 137 140 15 136 6 3 143 9 14 156 142 145 128 68 55 62 56 63 153 151 134 144 157 149 147 2 138 16 13 18 4 19 135 152 10 155 5 7 139 11 141 133</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65 66 130 12 17 137 140 15 136 6 3 143 9 14 156 142 145 128 68 55 62 56 63 153 151 134 144 157 149 147 2 138 16 13 18 4 19 135 152 10 155 5 7 139 11 141 133</file>
+>>>>>>> Stashed changes
         </tool>
       </inputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\LPLD\DEV\DEV_OLED.c</name>
       <outputs>
         <tool>
@@ -225,20 +1045,41 @@
         <tool>
           <name>BICOMP</name>
           <file> 58</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\common\printf.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90 95 22</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
       <inputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 1 105 102 51 41 13 155 54 67 133 47 53 128 61 19 14 140 79 56 93 94 96 91 95 124 125 11 120 116 119 131 121 73 8 69 147 37 77 29 113 134 15 70 28 80 81 84 142 101</file>
         </tool>
         <tool>
           <name>BICOMP</name>
           <file> 84 14 105 131 29 96 61 53 128 54 11 69 70 101 93 95 56 72 155 67 116 73 37 134 80 102 51 94 91 124 41 13 140 133 47 19 125 120 119 121 8 147 77 113 15 28 81 142 1</file>
+=======
+          <name>BICOMP</name>
+          <file> 65 66 130 12 17 137 140 15 136 6 3 143 9 14 156 142 145 128 68 55 62 56 63 153 151 134 144 157 149 147 2 138 16 13 18 4 19 135 152 10 155 5 7 139 11 141 133 8</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65 66 130 12 17 137 140 15 136 6 3 143 9 14 156 142 145 128 68 55 62 56 63 153 151 134 144 157 149 147 2 138 16 13 18 4 19 135 152 10 155 5 7 139 11 141 133</file>
+>>>>>>> Stashed changes
         </tool>
       </inputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\FLASH\Exe\myK10Project_K60DZ10.out</name>
       <outputs>
         <tool>
@@ -248,16 +1089,37 @@
         <tool>
           <name>ILINK</name>
           <file> 156</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\common\stdlib.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 106 98 35</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
       <inputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ILINK</name>
           <file> 46 110 153 27 157 23 136 17 86 149 141 6 75 39 24 10 43 4 78 9 126 148 76 32 36 30</file>
+=======
+          <name>BICOMP</name>
+          <file> 56 65 66 130 12 17 137 140 15 136 6 3 143 9 14 156 142 145 128 68 55 62 63 153 151 134 144 157 149 147 2 138 16 13 18 4 19 135 152 10 155 5 7 139 11 141 133</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 56 65 66 130 12 17 137 140 15 136 6 3 143 9 14 156 142 145 128 68 55 62 63 153 151 134 144 157 149 147 2 138 16 13 18 4 19 135 152 10 155 5 7 139 11 141 133</file>
+>>>>>>> Stashed changes
         </tool>
       </inputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\common\relocate.c</name>
       <outputs>
         <tool>
@@ -267,35 +1129,75 @@
         <tool>
           <name>BICOMP</name>
           <file> 151</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\common\queue.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 109</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 85 127 81</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
       <inputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 105 102 51 41 13 155 54 67 133 47 53 128 61 19 14 140 79 56 93 94 96 91 95 124 125 11 120 116 119 131 121 73 8 69 147 37 77 29 113 134 15 70 28 80 81 84 142</file>
         </tool>
         <tool>
           <name>BICOMP</name>
           <file> 14 113 96 13 121 142 93 95 61 155 133 19 120 147 28 102 51 94 91 124 56 72 47 125 119 8 77 15 81 105 41 140 54 67 53 128 11 116 131 73 69 37 29 134 70 80 84</file>
+=======
+          <name>BICOMP</name>
+          <file> 65 66 130 12 17 137 140 15 136 6 3 143 9 14 156 142 145 128 68 55 62 56 63 153 151 134 144 157 149 147 2 138 16 13 18 4 19 135 152 10 155 5 7 139 11 141 133 60</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65 66 130 12 17 137 140 15 136 6 3 143 9 14 156 142 145 128 68 55 62 56 63 153 151 134 144 157 149 147 2 138 16 13 18 4 19 135 152 10 155 5 7 139 11 141 133 60</file>
+>>>>>>> Stashed changes
         </tool>
       </inputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\common\stdlib.c</name>
       <outputs>
         <tool>
           <name>ICCARM</name>
           <file> 83 64 78</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\common\uif.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 33 78 28</file>
+>>>>>>> Stashed changes
         </tool>
         <tool>
           <name>BICOMP</name>
+<<<<<<< Updated upstream
           <file> 63</file>
+=======
+          <file> 65 66 130 12 17 137 140 15 136 6 3 143 9 14 156 142 145 128 68 55 62 56 63 153 151 134 144 157 149 147 2 138 16 13 18 4 19 135 152 10 155 5 7 139 11 141 133</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>ICCARM</name>
+<<<<<<< Updated upstream
           <file> 91 105 102 51 41 13 155 54 67 133 47 53 128 61 19 14 140 79 56 93 94 96 95 124 125 11 120 116 119 131 121 73 8 69 147 37 77 29 113 134 15 70 28 80 81 84 142</file>
+=======
+          <file> 65 66 130 12 17 137 140 15 136 6 3 143 9 14 156 142 145 128 68 55 62 56 63 153 151 134 144 157 149 147 2 138 16 13 18 4 19 135 152 10 155 5 7 139 11 141 133</file>
+>>>>>>> Stashed changes
         </tool>
       </inputs>
     </file>
@@ -303,26 +1205,45 @@
       <name>$PROJ_DIR$\..\..\..\lib\common\uif.c</name>
       <outputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 12 59 126</file>
         </tool>
         <tool>
           <name>BICOMP</name>
           <file> 31</file>
+=======
+          <name>BICOMP</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 114 96 123</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
       <inputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 105 102 51 41 13 155 54 67 133 47 53 128 61 19 14 140 79 56 93 94 96 91 95 124 125 11 120 116 119 131 121 73 8 69 147 37 77 29 113 134 15 70 28 80 81 84 142</file>
         </tool>
         <tool>
           <name>BICOMP</name>
           <file> 37 91 140 41 116 80 51 124 67 73 134 102 94 13 54 53 128 14 105 11 131 69 29 70 84 96 93 95 56 61 72 155 133 47 19 125 120 119 121 8 147 77 113 15 28 81 142</file>
+=======
+          <name>BICOMP</name>
+          <file> 50 65 66 130 12 17 137 140 15 136 6 3 143 9 14 156 142 145 128 68 55 62 56 63 153 151 134 144 157 149 147 2 138 16 13 18 4 19 135 152 10 155 5 7 139 11 141 133</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50 65 66 130 12 17 137 140 15 136 6 3 143 9 14 156 142 145 128 68 55 62 56 63 153 151 134 144 157 149 147 2 138 16 13 18 4 19 135 152 10 155 5 7 139 11 141 133</file>
+>>>>>>> Stashed changes
         </tool>
       </inputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\config\Card_Config.c</name>
       <outputs>
         <tool>
@@ -332,20 +1253,41 @@
         <tool>
           <name>BICOMP</name>
           <file> 144</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\common\io.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 31 24 36</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
       <inputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 101 105 102 51 41 13 155 54 67 133 47 53 128 61 19 14 140 79 56 93 94 96 91 95 124 125 11 120 116 119 131 121 73 8 69 147 37 77 29 113 134 15 70 28 80 81 84 142</file>
         </tool>
         <tool>
           <name>BICOMP</name>
           <file> 96 113 14 13 121 142 105 93 95 41 140 155 133 19 120 147 28 102 51 94 91 124 54 47 125 119 8 77 15 81 101 56 61 72 67 53 128 11 116 131 73 69 37 29 134 70 80 84</file>
+=======
+          <name>BICOMP</name>
+          <file> 65 66 130 12 17 137 140 15 136 6 3 143 9 14 156 142 145 128 68 55 62 56 63 153 151 134 144 157 149 147 2 138 16 13 18 4 19 135 152 10 155 5 7 139 11 141 133</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65 66 130 12 17 137 140 15 136 6 3 143 9 14 156 142 145 128 68 55 62 56 63 153 151 134 144 157 149 147 2 138 16 13 18 4 19 135 152 10 155 5 7 139 11 141 133</file>
+>>>>>>> Stashed changes
         </tool>
       </inputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\app\myK10Project.c</name>
       <outputs>
         <tool>
@@ -355,43 +1297,91 @@
         <tool>
           <name>BICOMP</name>
           <file> 50</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\CPU\startup_K60DZ10.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 103 97</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\lib\LPLD\DEV\DEV_OLED.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 72 43 126</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
       <inputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 105 102 51 41 13 155 54 67 133 47 53 128 61 19 14 140 79 56 93 94 96 91 95 124 125 11 120 116 119 131 121 73 8 69 147 37 77 29 113 134 15 70 28 80 81 84 142 1</file>
         </tool>
         <tool>
           <name>BICOMP</name>
           <file> 47 155 81 91 19 119 51 124 56 72 77 102 94 125 8 15 105 1 93 96 95 14 61 133 13 120 121 147 113 28 142 41 140 54 67 53 128 11 116 131 73 69 37 29 134 70 80 84</file>
+=======
+          <name>BICOMP</name>
+          <file> 1 65 66 130 12 17 137 140 15 136 6 3 143 9 14 156 142 145 128 68 55 62 56 63 153 151 134 144 157 149 147 2 138 16 13 18 4 19 135 152 10 155 5 7 139 11 141 133 50</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 1 65 66 130 12 17 137 140 15 136 6 3 143 9 14 156 142 145 128 68 55 62 56 63 153 151 134 144 157 149 147 2 138 16 13 18 4 19 135 152 10 155 5 7 139 11 141 133 50</file>
+>>>>>>> Stashed changes
         </tool>
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\lib\common\io.c</name>
+      <name>$PROJ_DIR$\..\..\..\lib\CPU\system_MK60.c</name>
       <outputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 130 139 75</file>
         </tool>
         <tool>
           <name>BICOMP</name>
           <file> 111</file>
+=======
+          <name>BICOMP</name>
+          <file> 46</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 116 108 115</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
       <inputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 105 102 51 41 13 155 54 67 133 47 53 128 61 19 14 140 79 56 93 94 96 91 95 124 125 11 120 116 119 131 121 73 8 69 147 37 77 29 113 134 15 70 28 80 81 84 142</file>
         </tool>
         <tool>
           <name>BICOMP</name>
           <file> 113 93 95 13 121 142 96 14 61 155 133 19 120 147 28 102 51 94 91 124 56 72 47 125 119 8 77 15 81 105 41 140 54 67 53 128 11 116 131 73 69 37 29 134 70 80 84</file>
+=======
+          <name>BICOMP</name>
+          <file> 17 137 140 15 136 6 3 143 65 66 130 12 9 14 156 142 145 128 68 55 62 56 63 153 151 134 144 157 149 147 2 138 16 13 18 4 19 135 152 10 155 5 7 139 11 141 133</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 17 137 140 15 136 6 3 143 65 66 130 12 9 14 156 142 145 128 68 55 62 56 63 153 151 134 144 157 149 147 2 138 16 13 18 4 19 135 152 10 155 5 7 139 11 141 133</file>
+>>>>>>> Stashed changes
         </tool>
       </inputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\common\printf.c</name>
       <outputs>
         <tool>
@@ -401,20 +1391,41 @@
         <tool>
           <name>BICOMP</name>
           <file> 88</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\common\relocate.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 92</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 83 84 70</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
       <inputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 105 102 51 41 13 155 54 67 133 47 53 128 61 19 14 140 79 56 93 94 96 91 95 124 125 11 120 116 119 131 121 73 8 69 147 37 77 29 113 134 15 70 28 80 81 84 142</file>
         </tool>
         <tool>
           <name>BICOMP</name>
           <file> 80 116 96 61 37 14 67 73 134 93 95 56 72 155 53 128 54 105 11 131 69 29 70 84 102 51 94 91 124 41 13 140 133 47 19 125 120 119 121 8 147 77 113 15 28 81 142</file>
+=======
+          <name>BICOMP</name>
+          <file> 65 66 130 12 17 137 140 15 136 6 3 143 9 14 156 142 145 128 68 55 62 56 63 153 151 134 144 157 149 147 2 138 16 13 18 4 19 135 152 10 155 5 7 139 11 141 133</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65 66 130 12 17 137 140 15 136 6 3 143 9 14 156 142 145 128 68 55 62 56 63 153 151 134 144 157 149 147 2 138 16 13 18 4 19 135 152 10 155 5 7 139 11 141 133</file>
+>>>>>>> Stashed changes
         </tool>
       </inputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\common\alloc.c</name>
       <outputs>
         <tool>
@@ -424,16 +1435,36 @@
         <tool>
           <name>BICOMP</name>
           <file> 20</file>
+=======
+      <name>$PROJ_DIR$\..\app\myK10Project.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 132</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37 129 91</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
       <inputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 105 102 51 41 13 155 54 67 133 47 53 128 61 19 14 140 79 56 93 94 96 91 95 124 125 11 120 116 119 131 121 73 8 69 147 37 77 29 113 134 15 70 28 80 81 84 142</file>
         </tool>
         <tool>
           <name>BICOMP</name>
           <file> 128 54 11 53 70 94 13 69 105 102 14 131 29 84 51 91 124 41 140 67 116 73 37 134 80 93 96 95 56 61 72 155 133 47 19 125 120 119 121 8 147 77 113 15 28 81 142</file>
+=======
+          <name>BICOMP</name>
+          <file> 65 66 130 12 17 137 140 15 136 6 3 143 9 14 156 142 145 128 68 55 62 56 63 153 151 134 144 157 149 147 2 138 16 13 18 4 19 135 152 10 155 5 7 139 11 141 133 1</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65 66 130 12 17 137 140 15 136 6 3 143 9 14 156 142 145 128 68 55 62 56 63 153 151 134 144 157 149 147 2 138 16 13 18 4 19 135 152 10 155 5 7 139 11 141 133 1</file>
+>>>>>>> Stashed changes
         </tool>
       </inputs>
     </file>
@@ -441,26 +1472,45 @@
       <name>$PROJ_DIR$\..\..\..\lib\common\assert.c</name>
       <outputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 150 60 153</file>
         </tool>
         <tool>
           <name>BICOMP</name>
           <file> 16</file>
+=======
+          <name>BICOMP</name>
+          <file> 118</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 80 76 105</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
       <inputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 105 102 51 41 13 155 54 67 133 47 53 128 61 19 14 140 79 56 93 94 96 91 95 124 125 11 120 116 119 131 121 73 8 69 147 37 77 29 113 134 15 70 28 80 81 84 142</file>
         </tool>
         <tool>
           <name>BICOMP</name>
           <file> 113 95 93 13 121 142 96 14 61 155 133 19 120 147 28 102 51 94 91 124 56 72 47 125 119 8 77 15 81 105 41 140 54 67 53 128 11 116 131 73 69 37 29 134 70 80 84</file>
+=======
+          <name>BICOMP</name>
+          <file> 65 66 130 12 17 137 140 15 136 6 3 143 9 14 156 142 145 128 68 55 62 56 63 153 151 134 144 157 149 147 2 138 16 13 18 4 19 135 152 10 155 5 7 139 11 141 133</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65 66 130 12 17 137 140 15 136 6 3 143 9 14 156 142 145 128 68 55 62 56 63 153 151 134 144 157 149 147 2 138 16 13 18 4 19 135 152 10 155 5 7 139 11 141 133</file>
+>>>>>>> Stashed changes
         </tool>
       </inputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\common\queue.c</name>
       <outputs>
         <tool>
@@ -493,20 +1543,41 @@
         <tool>
           <name>BICOMP</name>
           <file> 145</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\common\alloc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 79</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41 131 29</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
       <inputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 105 102 51 41 13 155 54 67 133 47 53 128 61 19 14 140 79 56 93 94 96 91 95 124 125 11 120 116 119 131 121 73 8 69 147 37 77 29 113 134 15 70 28 80 81 84 142</file>
         </tool>
         <tool>
           <name>BICOMP</name>
           <file> 113 94 102 13 121 142 51 91 124 61 155 133 19 120 147 28 119 93 96 95 14 41 72 47 125 8 77 15 81 105 56 140 54 67 53 128 11 116 131 73 69 37 29 134 70 80 84</file>
+=======
+          <name>BICOMP</name>
+          <file> 65 66 130 12 17 137 140 15 136 6 3 143 9 14 156 142 145 128 68 55 62 56 63 153 151 134 144 157 149 147 2 138 16 13 18 4 19 135 152 10 155 5 7 139 11 141 133</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65 66 130 12 17 137 140 15 136 6 3 143 9 14 156 142 145 128 68 55 62 56 63 153 151 134 144 157 149 147 2 138 16 13 18 4 19 135 152 10 155 5 7 139 11 141 133</file>
+>>>>>>> Stashed changes
         </tool>
       </inputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_FTM.c</name>
       <outputs>
         <tool>
@@ -516,20 +1587,37 @@
         <tool>
           <name>BICOMP</name>
           <file> 21</file>
+=======
+      <name>$PROJ_DIR$\FLASH\Exe\myK10Project_K60DZ10.out</name>
+      <outputs>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 122</file>
+        </tool>
+        <tool>
+          <name>ILINK</name>
+          <file> 125</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
       <inputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 105 102 51 41 13 155 54 67 133 47 53 128 61 19 14 140 79 56 93 94 96 91 95 124 125 11 120 116 119 131 121 73 8 69 147 37 77 29 113 134 15 70 28 80 81 84 142</file>
         </tool>
         <tool>
           <name>BICOMP</name>
           <file> 73 14 67 134 96 61 116 37 80 93 95 56 72 155 53 128 54 105 11 131 69 29 70 84 102 51 94 91 124 41 13 140 133 47 19 125 120 119 121 8 147 77 113 15 28 81 142</file>
+=======
+          <name>ILINK</name>
+          <file> 73 29 105 123 126 99 20 39 87 101 45 112 36 91 22 81 70 103 35 115 28 104 42 77 86 75</file>
+>>>>>>> Stashed changes
         </tool>
       </inputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_GPIO.c</name>
       <outputs>
         <tool>
@@ -539,20 +1627,41 @@
         <tool>
           <name>BICOMP</name>
           <file> 40</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_FTM.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 124 82 39</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
       <inputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 105 102 51 41 13 155 54 67 133 47 53 128 61 19 14 140 79 56 93 94 96 91 95 124 125 11 120 116 119 131 121 73 8 69 147 37 77 29 113 134 15 70 28 80 81 84 142</file>
         </tool>
         <tool>
           <name>BICOMP</name>
           <file> 14 113 96 13 121 142 93 95 61 155 133 19 120 147 28 116 102 51 94 91 124 56 72 47 125 119 8 77 15 81 105 41 140 54 67 53 128 11 131 73 69 37 29 134 70 80 84</file>
+=======
+          <name>BICOMP</name>
+          <file> 65 66 130 12 17 137 140 15 136 6 3 143 9 14 156 142 145 128 68 55 62 56 63 153 151 134 144 157 149 147 2 138 16 13 18 4 19 135 152 10 155 5 7 139 11 141 133</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65 66 130 12 17 137 140 15 136 6 3 143 9 14 156 142 145 128 68 55 62 56 63 153 151 134 144 157 149 147 2 138 16 13 18 4 19 135 152 10 155 5 7 139 11 141 133</file>
+>>>>>>> Stashed changes
         </tool>
       </inputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_DMA.c</name>
       <outputs>
         <tool>
@@ -562,35 +1671,75 @@
         <tool>
           <name>BICOMP</name>
           <file> 26</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_UART.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 40 119 112</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
       <inputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 105 102 51 41 13 155 54 67 133 47 53 128 61 19 14 140 79 56 93 94 96 91 95 124 125 11 120 116 119 131 121 73 8 69 147 37 77 29 113 134 15 70 28 80 81 84 142</file>
         </tool>
         <tool>
           <name>BICOMP</name>
           <file> 61 94 113 13 121 142 102 155 133 19 120 147 28 51 91 124 56 72 47 125 119 8 77 15 81 105 93 96 95 14 41 140 54 67 53 128 11 116 131 73 69 37 29 134 70 80 84</file>
+=======
+          <name>BICOMP</name>
+          <file> 65 66 130 12 17 137 140 15 136 6 3 143 9 14 156 142 145 128 68 55 62 56 63 153 151 134 144 157 149 147 2 138 16 13 18 4 19 135 152 10 155 5 7 139 11 141 133</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65 66 130 12 17 137 140 15 136 6 3 143 9 14 156 142 145 128 68 55 62 56 63 153 151 134 144 157 149 147 2 138 16 13 18 4 19 135 152 10 155 5 7 139 11 141 133</file>
+>>>>>>> Stashed changes
         </tool>
       </inputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_UART.c</name>
       <outputs>
         <tool>
           <name>ICCARM</name>
           <file> 132 25 6</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_PIT.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 32 121 45</file>
+>>>>>>> Stashed changes
         </tool>
         <tool>
           <name>BICOMP</name>
+<<<<<<< Updated upstream
           <file> 154</file>
+=======
+          <file> 65 66 130 12 17 137 140 15 136 6 3 143 9 14 156 142 145 128 68 55 62 56 63 153 151 134 144 157 149 147 2 138 16 13 18 4 19 135 152 10 155 5 7 139 11 141 133</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>ICCARM</name>
+<<<<<<< Updated upstream
           <file> 105 102 51 41 13 155 54 67 133 47 53 128 61 19 14 140 79 56 93 94 96 91 95 124 125 11 120 116 119 131 121 73 8 69 147 37 77 29 113 134 15 70 28 80 81 84 142</file>
+=======
+          <file> 65 66 130 12 17 137 140 15 136 6 3 143 9 14 156 142 145 128 68 55 62 56 63 153 151 134 144 157 149 147 2 138 16 13 18 4 19 135 152 10 155 5 7 139 11 141 133</file>
+>>>>>>> Stashed changes
         </tool>
       </inputs>
     </file>
@@ -598,26 +1747,45 @@
       <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_MCG.c</name>
       <outputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 52 135 149</file>
         </tool>
         <tool>
           <name>BICOMP</name>
           <file> 137</file>
+=======
+          <name>BICOMP</name>
+          <file> 44</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 88 27 101</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
       <inputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 105 102 51 41 13 155 54 67 133 47 53 128 61 19 14 140 79 56 93 94 96 91 95 124 125 11 120 116 119 131 121 73 8 69 147 37 77 29 113 134 15 70 28 80 81 84 142</file>
         </tool>
         <tool>
           <name>BICOMP</name>
           <file> 113 102 13 121 142 94 61 155 133 19 120 147 28 125 51 91 124 56 72 47 119 8 77 15 81 105 93 96 95 14 41 140 54 67 53 128 11 116 131 73 69 37 29 134 70 80 84</file>
+=======
+          <name>BICOMP</name>
+          <file> 65 66 130 12 17 137 140 15 136 6 3 143 9 14 156 142 145 128 68 55 62 56 63 153 151 134 144 157 149 147 2 138 16 13 18 4 19 135 152 10 155 5 7 139 11 141 133</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65 66 130 12 17 137 140 15 136 6 3 143 9 14 156 142 145 128 68 55 62 56 63 153 151 134 144 157 149 147 2 138 16 13 18 4 19 135 152 10 155 5 7 139 11 141 133</file>
+>>>>>>> Stashed changes
         </tool>
       </inputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_ADC.c</name>
       <outputs>
         <tool>
@@ -627,16 +1795,36 @@
         <tool>
           <name>BICOMP</name>
           <file> 34</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_GPIO.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 71</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 102 113 87</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
       <inputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 105 102 51 41 13 155 54 67 133 47 53 128 61 19 14 140 79 56 93 94 96 91 95 124 125 11 120 116 119 131 121 73 8 69 147 37 77 29 113 134 15 70 28 80 81 84 142</file>
         </tool>
         <tool>
           <name>BICOMP</name>
           <file> 61 94 113 13 121 142 102 155 133 19 120 147 28 51 91 124 56 72 47 125 119 8 77 15 81 105 93 96 95 14 41 140 54 67 53 128 11 116 131 73 69 37 29 134 70 80 84</file>
+=======
+          <name>BICOMP</name>
+          <file> 65 66 130 12 17 137 140 15 136 6 3 143 9 14 156 142 145 128 68 55 62 56 63 153 151 134 144 157 149 147 2 138 16 13 18 4 19 135 152 10 155 5 7 139 11 141 133</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65 66 130 12 17 137 140 15 136 6 3 143 9 14 156 142 145 128 68 55 62 56 63 153 151 134 144 157 149 147 2 138 16 13 18 4 19 135 152 10 155 5 7 139 11 141 133</file>
+>>>>>>> Stashed changes
         </tool>
       </inputs>
     </file>
@@ -644,6 +1832,7 @@
   <configuration>
     <name>RAM</name>
     <outputs>
+<<<<<<< Updated upstream
       <file>$PROJ_DIR$\..\..\..\lib\CPU\startup_K60DZ10.s</file>
       <file>$PROJ_DIR$\..\..\..\lib\LPLD\DEV\DEV_OLED.h</file>
       <file>$PROJ_DIR$\..\..\..\lib\CPU\system_MK60.c</file>
@@ -805,26 +1994,216 @@
       <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_FLASH.h</file>
       <file>$TOOLKIT_DIR$\CMSIS\Lib\IAR\iar_cortexM4l_math.a</file>
       <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+=======
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_ADC.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\DEV\DEV_OLED.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_ADC.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\CPU\system_MK60DZ10.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_I2C.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_TSI.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_ENET.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_RTC.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_USB.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cm4.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_LPTMR.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_PDB.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\CPU\MK60DZ10.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_FLASH.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_CAN.h</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_DMA.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\printf.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\stdlib.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\config\Card_Config.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\queue.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\uif.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\config\Card_Config.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\io.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\io.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\stdlib.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\CPU\startup_K60DZ10.s</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\DEV\DEV_OLED.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\CPU\system_MK60.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\queue.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\relocate.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\uif.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\relocate.h</file>
+      <file>$PROJ_DIR$\..\app\myK10Project.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\common.h</file>
+      <file>$PROJ_DIR$\..\app\k60_card.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\assert.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\assert.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\common\alloc.c</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Lib\IAR\iar_cortexM4l_math.a</file>
+      <file>$PROJ_DIR$\RAM\List\Card_Config.s</file>
+      <file>$PROJ_DIR$\RAM\Obj\system_MK60.pbi</file>
+      <file>$PROJ_DIR$\RAM\Obj\system_MK60.o</file>
+      <file>$PROJ_DIR$\RAM\Obj\relocate.pbi</file>
+      <file>$PROJ_DIR$\RAM\List\startup_K60DZ10.lst</file>
+      <file>$PROJ_DIR$\RAM\Obj\HardWare_Config.o</file>
+      <file>$PROJ_DIR$\RAM\List\HW_UART.lst</file>
+      <file>$PROJ_DIR$\RAM\List\HW_UART.s</file>
+      <file>$PROJ_DIR$\RAM\List\HW_FTM.s</file>
+      <file>$PROJ_DIR$\RAM\Obj\printf.pbi</file>
+      <file>$PROJ_DIR$\RAM\List\relocate.lst</file>
+      <file>$PROJ_DIR$\..\..\..\lib\iar_config_files\LPLD_K60DN512_RAM.icf</file>
+      <file>$PROJ_DIR$\RAM\Obj\relocate.o</file>
+      <file>$PROJ_DIR$\RAM\Obj\alloc.o</file>
+      <file>$PROJ_DIR$\RAM\List\HW_ADC.lst</file>
+      <file>$PROJ_DIR$\RAM\Obj\HW_MCG.o</file>
+      <file>$PROJ_DIR$\RAM\List\HW_DMA.s</file>
+      <file>$PROJ_DIR$\RAM\Exe\myK10Project_K60DZ10.bin</file>
+      <file>$PROJ_DIR$\RAM\List\io.s</file>
+      <file>$PROJ_DIR$\RAM\Obj\DEV_OLED.pbi</file>
+      <file>$PROJ_DIR$\RAM\Obj\HW_PIT.o</file>
+      <file>$PROJ_DIR$\RAM\List\assert.lst</file>
+      <file>$PROJ_DIR$\RAM\List\HW_FTM.lst</file>
+      <file>$PROJ_DIR$\RAM\Obj\assert.pbi</file>
+      <file>$PROJ_DIR$\RAM\List\HW_PIT.lst</file>
+      <file>$PROJ_DIR$\RAM\Obj\queue.pbi</file>
+      <file>$PROJ_DIR$\RAM\List\Card_Config.lst</file>
+      <file>$PROJ_DIR$\RAM\Obj\myK10Project.pbi</file>
+      <file>$PROJ_DIR$\RAM\Obj\Card_Config.pbi</file>
+      <file>$PROJ_DIR$\RAM\Obj\Card_Config.o</file>
+      <file>$PROJ_DIR$\RAM\Obj\uif.o</file>
+      <file>$PROJ_DIR$\RAM\List\printf.s</file>
+      <file>$PROJ_DIR$\RAM\Obj\HW_GPIO.pbi</file>
+      <file>$PROJ_DIR$\RAM\List\myK10Project_K60DZ10.map</file>
+      <file>$PROJ_DIR$\RAM\List\system_MK60.s</file>
+      <file>$PROJ_DIR$\..\..\..\lib\config\HardWare_Config.c</file>
+      <file>$PROJ_DIR$\RAM\Exe\myK10Project_K60DZ10.out</file>
+      <file>$PROJ_DIR$\RAM\Obj\assert.o</file>
+      <file>$PROJ_DIR$\RAM\Obj\HW_FTM.pbi</file>
+      <file>$PROJ_DIR$\RAM\List\HW_DMA.lst</file>
+      <file>$PROJ_DIR$\RAM\Obj\HW_ADC.pbi</file>
+      <file>$PROJ_DIR$\RAM\Obj\printf.o</file>
+      <file>$PROJ_DIR$\RAM\List\HW_PIT.s</file>
+      <file>$PROJ_DIR$\RAM\Obj\HW_UART.o</file>
+      <file>$PROJ_DIR$\RAM\Obj\startup_K60DZ10.o</file>
+      <file>$PROJ_DIR$\RAM\Obj\HW_FTM.o</file>
+      <file>$PROJ_DIR$\RAM\Obj\HW_DMA.pbi</file>
+      <file>$PROJ_DIR$\RAM\Obj\io.o</file>
+      <file>$PROJ_DIR$\RAM\List\HW_MCG.lst</file>
+      <file>$PROJ_DIR$\RAM\Obj\myK10Project.o</file>
+      <file>$PROJ_DIR$\RAM\List\uif.s</file>
+      <file>$PROJ_DIR$\RAM\Obj\alloc.pbi</file>
+      <file>$PROJ_DIR$\RAM\List\uif.lst</file>
+      <file>$PROJ_DIR$\RAM\List\alloc.s</file>
+      <file>$PROJ_DIR$\RAM\List\printf.lst</file>
+      <file>$PROJ_DIR$\RAM\List\queue.s</file>
+      <file>$PROJ_DIR$\RAM\Obj\HardWare_Config.pbi</file>
+      <file>$PROJ_DIR$\RAM\Obj\HW_DMA.o</file>
+      <file>$PROJ_DIR$\RAM\List\relocate.s</file>
+      <file>$PROJ_DIR$\RAM\List\HW_GPIO.s</file>
+      <file>$PROJ_DIR$\RAM\List\io.lst</file>
+      <file>$PROJ_DIR$\RAM\Obj\DEV_OLED.o</file>
+      <file>$PROJ_DIR$\RAM\Obj\stdlib.o</file>
+      <file>$PROJ_DIR$\RAM\Obj\uif.pbi</file>
+      <file>$PROJ_DIR$\RAM\Obj\HW_PIT.pbi</file>
+      <file>$PROJ_DIR$\RAM\List\myK10Project.lst</file>
+      <file>$PROJ_DIR$\RAM\List\stdlib.s</file>
+      <file>$PROJ_DIR$\RAM\List\HW_MCG.s</file>
+      <file>$PROJ_DIR$\RAM\Obj\stdlib.pbi</file>
+      <file>$PROJ_DIR$\RAM\List\queue.lst</file>
+      <file>$PROJ_DIR$\RAM\Obj\HW_GPIO.o</file>
+      <file>$PROJ_DIR$\RAM\List\DEV_OLED.s</file>
+      <file>$PROJ_DIR$\RAM\List\myK10Project.s</file>
+      <file>$PROJ_DIR$\RAM\List\DEV_OLED.lst</file>
+      <file>$PROJ_DIR$\RAM\List\system_MK60.lst</file>
+      <file>$PROJ_DIR$\RAM\Obj\HW_UART.pbi</file>
+      <file>$PROJ_DIR$\RAM\Obj\HW_MCG.pbi</file>
+      <file>$PROJ_DIR$\RAM\List\stdlib.lst</file>
+      <file>$PROJ_DIR$\RAM\List\HW_GPIO.lst</file>
+      <file>$PROJ_DIR$\RAM\Obj\queue.o</file>
+      <file>$PROJ_DIR$\RAM\List\alloc.lst</file>
+      <file>$PROJ_DIR$\RAM\List\assert.s</file>
+      <file>$PROJ_DIR$\RAM\List\HW_ADC.s</file>
+      <file>$PROJ_DIR$\RAM\Obj\HW_ADC.o</file>
+      <file>$PROJ_DIR$\RAM\Obj\io.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_NVIC.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_WDOG.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_SDHC.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_DAC.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_SPI.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_SYSTICK.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmFunc.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_UART.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cm4_simd.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_FTM.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_FTM.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_UART.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_PIT.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_PIT.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_MCG.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_DMA.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\LPLD_Drivers.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_MCG.c</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_FLEXBUS.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_GPIO.h</file>
+      <file>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_GPIO.c</file>
+>>>>>>> Stashed changes
     </outputs>
     <file>
       <name>[ROOT_NODE]</name>
       <outputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ILINK</name>
           <file> 40 56</file>
         </tool>
       </outputs>
+=======
+          <name>BICOMP</name>
+          <file> 90</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 132 64 133</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41 42 18 13 19 139 142 16 138 7 4 145 10 15 158 144 147 3 44 31 38 32 39 155 153 136 146 159 151 149 2 140 17 14 20 5 21 137 154 11 157 6 8 141 12 143 135</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41 42 18 13 19 139 142 16 138 7 4 145 10 15 158 144 147 3 44 31 38 32 39 155 153 136 146 159 151 149 2 140 17 14 20 5 21 137 154 11 157 6 8 141 12 143 135</file>
+        </tool>
+      </inputs>
+>>>>>>> Stashed changes
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\..\lib\CPU\startup_K60DZ10.s</name>
       <outputs>
         <tool>
+<<<<<<< Updated upstream
           <name>AARM</name>
           <file> 41 76</file>
+=======
+          <name>ILINK</name>
+          <file> 86 83</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\CPU\system_MK60.c</name>
       <outputs>
         <tool>
@@ -834,20 +2213,41 @@
         <tool>
           <name>BICOMP</name>
           <file> 112</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_DMA.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 96</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 66 89 107</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
       <inputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 61 160 74 79 154 72 73 152 135 132 111 71 75 64 62 156 88 108 123 124 126 121 125 150 151 60 146 142 145 153 147 85 59 83 158 70 87 66 139 155 63 84 65 89 90 91 157</file>
         </tool>
         <tool>
           <name>BICOMP</name>
           <file> 61 160 74 79 154 72 73 152 135 132 111 71 75 64 62 156 88 108 123 124 126 121 125 150 151 60 146 142 145 153 147 85 59 83 158 70 87 66 139 155 63 84 65 89 90 91 157</file>
+=======
+          <name>BICOMP</name>
+          <file> 41 42 18 13 19 139 142 16 138 7 4 145 10 15 158 144 147 3 44 31 38 32 39 155 153 136 146 159 151 149 2 140 17 14 20 5 21 137 154 11 157 6 8 141 12 143 135</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41 42 18 13 19 139 142 16 138 7 4 145 10 15 158 144 147 3 44 31 38 32 39 155 153 136 146 159 151 149 2 140 17 14 20 5 21 137 154 11 157 6 8 141 12 143 135</file>
+>>>>>>> Stashed changes
         </tool>
       </inputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\LPLD\DEV\DEV_OLED.c</name>
       <outputs>
         <tool>
@@ -857,20 +2257,41 @@
         <tool>
           <name>BICOMP</name>
           <file> 93</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\common\printf.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 59</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 81 104 91</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
       <inputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 1 135 132 111 71 61 160 74 79 154 72 73 152 75 64 62 156 88 108 123 124 126 121 125 150 151 60 146 142 145 153 147 85 59 83 158 70 87 66 139 155 63 84 65 89 90 91 157 131</file>
         </tool>
         <tool>
           <name>BICOMP</name>
           <file> 1 135 132 111 71 61 160 74 79 154 72 73 152 75 64 62 156 88 108 123 124 126 121 125 150 151 60 146 142 145 153 147 85 59 83 158 70 87 66 139 155 63 84 65 89 90 91 157 131</file>
+=======
+          <name>BICOMP</name>
+          <file> 41 42 18 13 19 139 142 16 138 7 4 145 10 15 158 144 147 3 44 31 38 32 39 155 153 136 146 159 151 149 2 140 17 14 20 5 21 137 154 11 157 6 8 141 12 143 135 9</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41 42 18 13 19 139 142 16 138 7 4 145 10 15 158 144 147 3 44 31 38 32 39 155 153 136 146 159 151 149 2 140 17 14 20 5 21 137 154 11 157 6 8 141 12 143 135</file>
+>>>>>>> Stashed changes
         </tool>
       </inputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\config\HardWare_Config.c</name>
       <outputs>
         <tool>
@@ -880,6 +2301,17 @@
         <tool>
           <name>BICOMP</name>
           <file> 82</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\common\stdlib.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 118</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 116 127 112</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
     </file>
@@ -887,6 +2319,7 @@
       <name>$PROJ_DIR$\RAM\Exe\myK10Project_K60DZ10.out</name>
       <outputs>
         <tool>
+<<<<<<< Updated upstream
           <name>OBJCOPY</name>
           <file> 20</file>
         </tool>
@@ -899,10 +2332,19 @@
         <tool>
           <name>ILINK</name>
           <file> 5 7 21 23 107 113 96 10 39 32 13 31 52 27 42 97 11 41 95 6 24 159 86 68 69 67</file>
+=======
+          <name>BICOMP</name>
+          <file> 32 41 42 18 13 19 139 142 16 138 7 4 145 10 15 158 144 147 3 44 31 38 39 155 153 136 146 159 151 149 2 140 17 14 20 5 21 137 154 11 157 6 8 141 12 143 135</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 32 41 42 18 13 19 139 142 16 138 7 4 145 10 15 158 144 147 3 44 31 38 39 155 153 136 146 159 151 149 2 140 17 14 20 5 21 137 154 11 157 6 8 141 12 143 135</file>
+>>>>>>> Stashed changes
         </tool>
       </inputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\common\relocate.c</name>
       <outputs>
         <tool>
@@ -912,20 +2354,41 @@
         <tool>
           <name>BICOMP</name>
           <file> 110</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\common\queue.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 75</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 105 119 129</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
       <inputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 135 132 111 71 61 160 74 79 154 72 73 152 75 64 62 156 88 108 123 124 126 121 125 150 151 60 146 142 145 153 147 85 59 83 158 70 87 66 139 155 63 84 65 89 90 91 157</file>
         </tool>
         <tool>
           <name>BICOMP</name>
           <file> 135 132 111 71 61 160 74 79 154 72 73 152 75 64 62 156 88 108 123 124 126 121 125 150 151 60 146 142 145 153 147 85 59 83 158 70 87 66 139 155 63 84 65 89 90 91 157</file>
+=======
+          <name>BICOMP</name>
+          <file> 41 42 18 13 19 139 142 16 138 7 4 145 10 15 158 144 147 3 44 31 38 32 39 155 153 136 146 159 151 149 2 140 17 14 20 5 21 137 154 11 157 6 8 141 12 143 135 36</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41 42 18 13 19 139 142 16 138 7 4 145 10 15 158 144 147 3 44 31 38 32 39 155 153 136 146 159 151 149 2 140 17 14 20 5 21 137 154 11 157 6 8 141 12 143 135 36</file>
+>>>>>>> Stashed changes
         </tool>
       </inputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\common\stdlib.c</name>
       <outputs>
         <tool>
@@ -935,16 +2398,36 @@
         <tool>
           <name>BICOMP</name>
           <file> 106</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\common\uif.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 100 102 80</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
       <inputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 121 135 132 111 71 61 160 74 79 154 72 73 152 75 64 62 156 88 108 123 124 126 125 150 151 60 146 142 145 153 147 85 59 83 158 70 87 66 139 155 63 84 65 89 90 91 157</file>
         </tool>
         <tool>
           <name>BICOMP</name>
           <file> 121 135 132 111 71 61 160 74 79 154 72 73 152 75 64 62 156 88 108 123 124 126 125 150 151 60 146 142 145 153 147 85 59 83 158 70 87 66 139 155 63 84 65 89 90 91 157</file>
+=======
+          <name>BICOMP</name>
+          <file> 41 42 18 13 19 139 142 16 138 7 4 145 10 15 158 144 147 3 44 31 38 32 39 155 153 136 146 159 151 149 2 140 17 14 20 5 21 137 154 11 157 6 8 141 12 143 135</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41 42 18 13 19 139 142 16 138 7 4 145 10 15 158 144 147 3 44 31 38 32 39 155 153 136 146 159 151 149 2 140 17 14 20 5 21 137 154 11 157 6 8 141 12 143 135</file>
+>>>>>>> Stashed changes
         </tool>
       </inputs>
     </file>
@@ -952,26 +2435,45 @@
       <name>$PROJ_DIR$\..\..\..\lib\common\uif.c</name>
       <outputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 16 81 24</file>
         </tool>
         <tool>
           <name>BICOMP</name>
           <file> 101</file>
+=======
+          <name>BICOMP</name>
+          <file> 78</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50 76 79</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
       <inputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 135 132 111 71 61 160 74 79 154 72 73 152 75 64 62 156 88 108 123 124 126 121 125 150 151 60 146 142 145 153 147 85 59 83 158 70 87 66 139 155 63 84 65 89 90 91 157</file>
         </tool>
         <tool>
           <name>BICOMP</name>
           <file> 135 132 111 71 61 160 74 79 154 72 73 152 75 64 62 156 88 108 123 124 126 121 125 150 151 60 146 142 145 153 147 85 59 83 158 70 87 66 139 155 63 84 65 89 90 91 157</file>
+=======
+          <name>BICOMP</name>
+          <file> 26 41 42 18 13 19 139 142 16 138 7 4 145 10 15 158 144 147 3 44 31 38 32 39 155 153 136 146 159 151 149 2 140 17 14 20 5 21 137 154 11 157 6 8 141 12 143 135</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 26 41 42 18 13 19 139 142 16 138 7 4 145 10 15 158 144 147 3 44 31 38 32 39 155 153 136 146 159 151 149 2 140 17 14 20 5 21 137 154 11 157 6 8 141 12 143 135</file>
+>>>>>>> Stashed changes
         </tool>
       </inputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\config\Card_Config.c</name>
       <outputs>
         <tool>
@@ -981,20 +2483,41 @@
         <tool>
           <name>BICOMP</name>
           <file> 115</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\common\io.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 134</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 68 110 97</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
       <inputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 131 135 132 111 71 61 160 74 79 154 72 73 152 75 64 62 156 88 108 123 124 126 121 125 150 151 60 146 142 145 153 147 85 59 83 158 70 87 66 139 155 63 84 65 89 90 91 157</file>
         </tool>
         <tool>
           <name>BICOMP</name>
           <file> 131 135 132 111 71 61 160 74 79 154 72 73 152 75 64 62 156 88 108 123 124 126 121 125 150 151 60 146 142 145 153 147 85 59 83 158 70 87 66 139 155 63 84 65 89 90 91 157</file>
+=======
+          <name>BICOMP</name>
+          <file> 41 42 18 13 19 139 142 16 138 7 4 145 10 15 158 144 147 3 44 31 38 32 39 155 153 136 146 159 151 149 2 140 17 14 20 5 21 137 154 11 157 6 8 141 12 143 135</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41 42 18 13 19 139 142 16 138 7 4 145 10 15 158 144 147 3 44 31 38 32 39 155 153 136 146 159 151 149 2 140 17 14 20 5 21 137 154 11 157 6 8 141 12 143 135</file>
+>>>>>>> Stashed changes
         </tool>
       </inputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\app\myK10Project.c</name>
       <outputs>
         <tool>
@@ -1004,43 +2527,91 @@
         <tool>
           <name>BICOMP</name>
           <file> 37</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\CPU\startup_K60DZ10.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 94 54</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\lib\LPLD\DEV\DEV_OLED.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 69</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 121 123 111</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
       <inputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 135 132 111 71 61 160 74 79 154 72 73 152 75 64 62 156 88 108 123 124 126 121 125 150 151 60 146 142 145 153 147 85 59 83 158 70 87 66 139 155 63 84 65 89 90 91 157 1</file>
         </tool>
         <tool>
           <name>BICOMP</name>
           <file> 135 132 111 71 61 160 74 79 154 72 73 152 75 64 62 156 88 108 123 124 126 121 125 150 151 60 146 142 145 153 147 85 59 83 158 70 87 66 139 155 63 84 65 89 90 91 157 1</file>
+=======
+          <name>BICOMP</name>
+          <file> 1 41 42 18 13 19 139 142 16 138 7 4 145 10 15 158 144 147 3 44 31 38 32 39 155 153 136 146 159 151 149 2 140 17 14 20 5 21 137 154 11 157 6 8 141 12 143 135 26</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 1 41 42 18 13 19 139 142 16 138 7 4 145 10 15 158 144 147 3 44 31 38 32 39 155 153 136 146 159 151 149 2 140 17 14 20 5 21 137 154 11 157 6 8 141 12 143 135 26</file>
+>>>>>>> Stashed changes
         </tool>
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\lib\common\io.c</name>
+      <name>$PROJ_DIR$\..\..\..\lib\CPU\system_MK60.c</name>
       <outputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 98 17 52</file>
         </tool>
         <tool>
           <name>BICOMP</name>
           <file> 43</file>
+=======
+          <name>BICOMP</name>
+          <file> 51</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 84 124 52</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
       <inputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 135 132 111 71 61 160 74 79 154 72 73 152 75 64 62 156 88 108 123 124 126 121 125 150 151 60 146 142 145 153 147 85 59 83 158 70 87 66 139 155 63 84 65 89 90 91 157</file>
         </tool>
         <tool>
           <name>BICOMP</name>
           <file> 135 132 111 71 61 160 74 79 154 72 73 152 75 64 62 156 88 108 123 124 126 121 125 150 151 60 146 142 145 153 147 85 59 83 158 70 87 66 139 155 63 84 65 89 90 91 157</file>
+=======
+          <name>BICOMP</name>
+          <file> 19 139 142 16 138 7 4 145 41 42 18 13 10 15 158 144 147 3 44 31 38 32 39 155 153 136 146 159 151 149 2 140 17 14 20 5 21 137 154 11 157 6 8 141 12 143 135</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 19 139 142 16 138 7 4 145 41 42 18 13 10 15 158 144 147 3 44 31 38 32 39 155 153 136 146 159 151 149 2 140 17 14 20 5 21 137 154 11 157 6 8 141 12 143 135</file>
+>>>>>>> Stashed changes
         </tool>
       </inputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\common\printf.c</name>
       <outputs>
         <tool>
@@ -1050,20 +2621,41 @@
         <tool>
           <name>BICOMP</name>
           <file> 44</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\common\relocate.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 53</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 108 60 62</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
       <inputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 135 132 111 71 61 160 74 79 154 72 73 152 75 64 62 156 88 108 123 124 126 121 125 150 151 60 146 142 145 153 147 85 59 83 158 70 87 66 139 155 63 84 65 89 90 91 157</file>
         </tool>
         <tool>
           <name>BICOMP</name>
           <file> 135 132 111 71 61 160 74 79 154 72 73 152 75 64 62 156 88 108 123 124 126 121 125 150 151 60 146 142 145 153 147 85 59 83 158 70 87 66 139 155 63 84 65 89 90 91 157 12</file>
+=======
+          <name>BICOMP</name>
+          <file> 41 42 18 13 19 139 142 16 138 7 4 145 10 15 158 144 147 3 44 31 38 32 39 155 153 136 146 159 151 149 2 140 17 14 20 5 21 137 154 11 157 6 8 141 12 143 135</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41 42 18 13 19 139 142 16 138 7 4 145 10 15 158 144 147 3 44 31 38 32 39 155 153 136 146 159 151 149 2 140 17 14 20 5 21 137 154 11 157 6 8 141 12 143 135</file>
+>>>>>>> Stashed changes
         </tool>
       </inputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\common\alloc.c</name>
       <outputs>
         <tool>
@@ -1073,16 +2665,36 @@
         <tool>
           <name>BICOMP</name>
           <file> 34</file>
+=======
+      <name>$PROJ_DIR$\..\app\myK10Project.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 77</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 122 115 99</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
       <inputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 135 132 111 71 61 160 74 79 154 72 73 152 75 64 62 156 88 108 123 124 126 121 125 150 151 60 146 142 145 153 147 85 59 83 158 70 87 66 139 155 63 84 65 89 90 91 157</file>
         </tool>
         <tool>
           <name>BICOMP</name>
           <file> 135 132 111 71 61 160 74 79 154 72 73 152 75 64 62 156 88 108 123 124 126 121 125 150 151 60 146 142 145 153 147 85 59 83 158 70 87 66 139 155 63 84 65 89 90 91 157</file>
+=======
+          <name>BICOMP</name>
+          <file> 41 42 18 13 19 139 142 16 138 7 4 145 10 15 158 144 147 3 44 31 38 32 39 155 153 136 146 159 151 149 2 140 17 14 20 5 21 137 154 11 157 6 8 141 12 143 135 1</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41 42 18 13 19 139 142 16 138 7 4 145 10 15 158 144 147 3 44 31 38 32 39 155 153 136 146 159 151 149 2 140 17 14 20 5 21 137 154 11 157 6 8 141 12 143 135 1</file>
+>>>>>>> Stashed changes
         </tool>
       </inputs>
     </file>
@@ -1090,26 +2702,45 @@
       <name>$PROJ_DIR$\..\..\..\lib\common\assert.c</name>
       <outputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 114 25 21</file>
         </tool>
         <tool>
           <name>BICOMP</name>
           <file> 78</file>
+=======
+          <name>BICOMP</name>
+          <file> 73</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 131 71 87</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
       <inputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 135 132 111 71 61 160 74 79 154 72 73 152 75 64 62 156 88 108 123 124 126 121 125 150 151 60 146 142 145 153 147 85 59 83 158 70 87 66 139 155 63 84 65 89 90 91 157</file>
         </tool>
         <tool>
           <name>BICOMP</name>
           <file> 135 132 111 71 61 160 74 79 154 72 73 152 75 64 62 156 88 108 123 124 126 121 125 150 151 60 146 142 145 153 147 85 59 83 158 70 87 66 139 155 63 84 65 89 90 91 157</file>
+=======
+          <name>BICOMP</name>
+          <file> 41 42 18 13 19 139 142 16 138 7 4 145 10 15 158 144 147 3 44 31 38 32 39 155 153 136 146 159 151 149 2 140 17 14 20 5 21 137 154 11 157 6 8 141 12 143 135</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41 42 18 13 19 139 142 16 138 7 4 145 10 15 158 144 147 3 44 31 38 32 39 155 153 136 146 159 151 149 2 140 17 14 20 5 21 137 154 11 157 6 8 141 12 143 135</file>
+>>>>>>> Stashed changes
         </tool>
       </inputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\common\queue.c</name>
       <outputs>
         <tool>
@@ -1119,20 +2750,41 @@
         <tool>
           <name>BICOMP</name>
           <file> 47</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\common\alloc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 101</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 103 130 63</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
       <inputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 135 132 111 71 61 160 74 79 154 72 73 152 75 64 62 156 88 108 123 124 126 121 125 150 151 60 146 142 145 153 147 85 59 83 158 70 87 66 139 155 63 84 65 89 90 91 157 137</file>
         </tool>
         <tool>
           <name>BICOMP</name>
           <file> 135 132 111 71 61 160 74 79 154 72 73 152 75 64 62 156 88 108 123 124 126 121 125 150 151 60 146 142 145 153 147 85 59 83 158 70 87 66 139 155 63 84 65 89 90 91 157 137</file>
+=======
+          <name>BICOMP</name>
+          <file> 41 42 18 13 19 139 142 16 138 7 4 145 10 15 158 144 147 3 44 31 38 32 39 155 153 136 146 159 151 149 2 140 17 14 20 5 21 137 154 11 157 6 8 141 12 143 135</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41 42 18 13 19 139 142 16 138 7 4 145 10 15 158 144 147 3 44 31 38 32 39 155 153 136 146 159 151 149 2 140 17 14 20 5 21 137 154 11 157 6 8 141 12 143 135</file>
+>>>>>>> Stashed changes
         </tool>
       </inputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_PIT.c</name>
       <outputs>
         <tool>
@@ -1142,16 +2794,45 @@
         <tool>
           <name>BICOMP</name>
           <file> 77</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\config\HardWare_Config.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 106</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 55</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
-      <inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\RAM\Exe\myK10Project_K60DZ10.out</name>
+      <outputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 135 132 111 71 61 160 74 79 154 72 73 152 75 64 62 156 88 108 123 124 126 121 125 150 151 60 146 142 145 153 147 85 59 83 158 70 87 66 139 155 63 84 65 89 90 91 157</file>
         </tool>
         <tool>
           <name>BICOMP</name>
           <file> 135 132 111 71 61 160 74 79 154 72 73 152 75 64 62 156 88 108 123 124 126 121 125 150 151 60 146 142 145 153 147 85 59 83 158 70 87 66 139 155 63 84 65 89 90 91 157</file>
+=======
+          <name>OBJCOPY</name>
+          <file> 67</file>
+        </tool>
+        <tool>
+          <name>ILINK</name>
+          <file> 83</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 61 63 87 79 111 133 107 95 120 65 70 93 97 99 91 129 62 94 112 52 80 49 22 47 48 46</file>
+>>>>>>> Stashed changes
         </tool>
       </inputs>
     </file>
@@ -1159,49 +2840,86 @@
       <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_FTM.c</name>
       <outputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 14 36 10</file>
         </tool>
         <tool>
           <name>BICOMP</name>
           <file> 22</file>
+=======
+          <name>BICOMP</name>
+          <file> 88</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 58 72 95</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
       <inputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 135 132 111 71 61 160 74 79 154 72 73 152 75 64 62 156 88 108 123 124 126 121 125 150 151 60 146 142 145 153 147 85 59 83 158 70 87 66 139 155 63 84 65 89 90 91 157</file>
         </tool>
         <tool>
           <name>BICOMP</name>
           <file> 135 132 111 71 61 160 74 79 154 72 73 152 75 64 62 156 88 108 123 124 126 121 125 150 151 60 146 142 145 153 147 85 59 83 158 70 87 66 139 155 63 84 65 89 90 91 157</file>
+=======
+          <name>BICOMP</name>
+          <file> 41 42 18 13 19 139 142 16 138 7 4 145 10 15 158 144 147 3 44 31 38 32 39 155 153 136 146 159 151 149 2 140 17 14 20 5 21 137 154 11 157 6 8 141 12 143 135</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41 42 18 13 19 139 142 16 138 7 4 145 10 15 158 144 147 3 44 31 38 32 39 155 153 136 146 159 151 149 2 140 17 14 20 5 21 137 154 11 157 6 8 141 12 143 135</file>
+>>>>>>> Stashed changes
         </tool>
       </inputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_GPIO.c</name>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_UART.c</name>
+>>>>>>> Stashed changes
       <outputs>
         <tool>
           <name>ICCARM</name>
           <file> 100 18 39</file>
         </tool>
         <tool>
+<<<<<<< Updated upstream
           <name>BICOMP</name>
           <file> 19</file>
+=======
+          <name>ICCARM</name>
+          <file> 57 56 93</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
       <inputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 135 132 111 71 61 160 74 79 154 72 73 152 75 64 62 156 88 108 123 124 126 121 125 150 151 60 146 142 145 153 147 85 59 83 158 70 87 66 139 155 63 84 65 89 90 91 157</file>
         </tool>
         <tool>
           <name>BICOMP</name>
           <file> 135 132 111 71 61 160 74 79 154 72 73 152 75 64 62 156 88 108 123 124 126 121 125 150 151 60 146 142 145 153 147 85 59 83 158 70 87 66 139 155 63 84 65 89 90 91 157</file>
+=======
+          <name>BICOMP</name>
+          <file> 41 42 18 13 19 139 142 16 138 7 4 145 10 15 158 144 147 3 44 31 38 32 39 155 153 136 146 159 151 149 2 140 17 14 20 5 21 137 154 11 157 6 8 141 12 143 135</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41 42 18 13 19 139 142 16 138 7 4 145 10 15 158 144 147 3 44 31 38 32 39 155 153 136 146 159 151 149 2 140 17 14 20 5 21 137 154 11 157 6 8 141 12 143 135</file>
+>>>>>>> Stashed changes
         </tool>
       </inputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_DMA.c</name>
       <outputs>
         <tool>
@@ -1211,20 +2929,41 @@
         <tool>
           <name>BICOMP</name>
           <file> 33</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_PIT.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 114</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 92 74 70</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
       <inputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 135 132 111 71 61 160 74 79 154 72 73 152 75 64 62 156 88 108 123 124 126 121 125 150 151 60 146 142 145 153 147 85 59 83 158 70 87 66 139 155 63 84 65 89 90 91 157</file>
         </tool>
         <tool>
           <name>BICOMP</name>
           <file> 135 132 111 71 61 160 74 79 154 72 73 152 75 64 62 156 88 108 123 124 126 121 125 150 151 60 146 142 145 153 147 85 59 83 158 70 87 66 139 155 63 84 65 89 90 91 157</file>
+=======
+          <name>BICOMP</name>
+          <file> 41 42 18 13 19 139 142 16 138 7 4 145 10 15 158 144 147 3 44 31 38 32 39 155 153 136 146 159 151 149 2 140 17 14 20 5 21 137 154 11 157 6 8 141 12 143 135</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41 42 18 13 19 139 142 16 138 7 4 145 10 15 158 144 147 3 44 31 38 32 39 155 153 136 146 159 151 149 2 140 17 14 20 5 21 137 154 11 157 6 8 141 12 143 135</file>
+>>>>>>> Stashed changes
         </tool>
       </inputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_UART.c</name>
       <outputs>
         <tool>
@@ -1234,20 +2973,41 @@
         <tool>
           <name>BICOMP</name>
           <file> 55</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_MCG.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 126</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 117 98 65</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
       <inputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 135 132 111 71 61 160 74 79 154 72 73 152 75 64 62 156 88 108 123 124 126 121 125 150 151 60 146 142 145 153 147 85 59 83 158 70 87 66 139 155 63 84 65 89 90 91 157</file>
         </tool>
         <tool>
           <name>BICOMP</name>
           <file> 135 132 111 71 61 160 74 79 154 72 73 152 75 64 62 156 88 108 123 124 126 121 125 150 151 60 146 142 145 153 147 85 59 83 158 70 87 66 139 155 63 84 65 89 90 91 157</file>
+=======
+          <name>BICOMP</name>
+          <file> 41 42 18 13 19 139 142 16 138 7 4 145 10 15 158 144 147 3 44 31 38 32 39 155 153 136 146 159 151 149 2 140 17 14 20 5 21 137 154 11 157 6 8 141 12 143 135</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41 42 18 13 19 139 142 16 138 7 4 145 10 15 158 144 147 3 44 31 38 32 39 155 153 136 146 159 151 149 2 140 17 14 20 5 21 137 154 11 157 6 8 141 12 143 135</file>
+>>>>>>> Stashed changes
         </tool>
       </inputs>
     </file>
     <file>
+<<<<<<< Updated upstream
       <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_MCG.c</name>
       <outputs>
         <tool>
@@ -1257,10 +3017,22 @@
         <tool>
           <name>BICOMP</name>
           <file> 109</file>
+=======
+      <name>$PROJ_DIR$\..\..\..\lib\LPLD\HW\HW_GPIO.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 82</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 109 128 120</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
       <inputs>
         <tool>
+<<<<<<< Updated upstream
           <name>ICCARM</name>
           <file> 135 132 111 71 61 160 74 79 154 72 73 152 75 64 62 156 88 108 123 124 126 121 125 150 151 60 146 142 145 153 147 85 59 83 158 70 87 66 139 155 63 84 65 89 90 91 157</file>
         </tool>
@@ -1280,17 +3052,26 @@
         <tool>
           <name>BICOMP</name>
           <file> 48</file>
+=======
+          <name>BICOMP</name>
+          <file> 41 42 18 13 19 139 142 16 138 7 4 145 10 15 158 144 147 3 44 31 38 32 39 155 153 136 146 159 151 149 2 140 17 14 20 5 21 137 154 11 157 6 8 141 12 143 135</file>
+>>>>>>> Stashed changes
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>ICCARM</name>
+<<<<<<< Updated upstream
           <file> 135 132 111 71 61 160 74 79 154 72 73 152 75 64 62 156 88 108 123 124 126 121 125 150 151 60 146 142 145 153 147 85 59 83 158 70 87 66 139 155 63 84 65 89 90 91 157</file>
         </tool>
         <tool>
           <name>BICOMP</name>
           <file> 135 132 111 71 61 160 74 79 154 72 73 152 75 64 62 156 88 108 123 124 126 121 125 150 151 60 146 142 145 153 147 85 59 83 158 70 87 66 139 155 63 84 65 89 90 91 157</file>
         </tool>
+=======
+          <file> 41 42 18 13 19 139 142 16 138 7 4 145 10 15 158 144 147 3 44 31 38 32 39 155 153 136 146 159 151 149 2 140 17 14 20 5 21 137 154 11 157 6 8 141 12 143 135</file>
+        </tool>
+>>>>>>> Stashed changes
       </inputs>
     </file>
   </configuration>
